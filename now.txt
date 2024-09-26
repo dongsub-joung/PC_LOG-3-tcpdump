@@ -1,0 +1,549 @@
+09:52:56.344592 Loopback, skipCount 0,  invalid (256)
+09:52:56.501585 IP 162.125.40.1.https > 192.168.75.233.45412: Flags [P.], seq 331772936:331773050, ack 1201152513, win 130, options [nop,nop,TS val 839751331 ecr 751976089], length 114
+09:52:56.501628 IP 192.168.75.233.45412 > 162.125.40.1.https: Flags [.], ack 114, win 501, options [nop,nop,TS val 751985828 ecr 839751331], length 0
+09:52:56.566443 IP 192.168.75.233.39746 > nrt12s35-in-f3.1e100.net.http: Flags [.], ack 3126411322, win 501, options [nop,nop,TS val 986639250 ecr 620939918], length 0
+09:52:56.574459 IP 192.168.75.233.54371 > 45.121.184.20.27033: Flags [P.], seq 4214807780:4214807834, ack 324741441, win 32403, length 54
+09:52:56.604630 IP nrt12s35-in-f3.1e100.net.http > 192.168.75.233.39746: Flags [.], ack 1, win 273, options [nop,nop,TS val 620950157 ecr 986526596], length 0
+09:52:56.660821 IP 192.168.75.233.45680 > bns1.hananet.net.domain: 51617+ A? www.dropbox.com. (33)
+09:52:56.660850 IP 192.168.75.233.45680 > bns1.hananet.net.domain: 37797+ AAAA? www.dropbox.com. (33)
+09:52:56.661877 IP bns1.hananet.net.domain > 192.168.75.233.45680: 51617 2/0/0 CNAME www-env.dropbox-dns.com., A 162.125.84.18 (86)
+09:52:56.661914 IP bns1.hananet.net.domain > 192.168.75.233.45680: 37797 2/0/0 CNAME www-env.dropbox-dns.com., AAAA 2620:100:6030:18::a27d:5012 (98)
+09:52:56.663503 IP 45.121.184.20.27033 > 192.168.75.233.54371: Flags [.], ack 54, win 16383, length 0
+09:52:56.766072 IP 192.168.75.233.39410 > bns1.hananet.net.domain: 1583+ A? bolt.dropbox.com. (34)
+09:52:56.766102 IP 192.168.75.233.39410 > bns1.hananet.net.domain: 13100+ AAAA? bolt.dropbox.com. (34)
+09:52:56.767887 IP bns1.hananet.net.domain > 192.168.75.233.39410: 1583 2/0/0 CNAME bolt.v.dropbox.com., A 162.125.40.1 (82)
+09:52:56.767924 IP bns1.hananet.net.domain > 192.168.75.233.39410: 13100 1/0/0 CNAME bolt.v.dropbox.com. (66)
+09:52:56.770101 IP 192.168.75.233.45412 > 162.125.40.1.https: Flags [P.], seq 1:102, ack 114, win 501, options [nop,nop,TS val 751986096 ecr 839751331], length 101
+09:52:56.770149 IP 192.168.75.233.45412 > 162.125.40.1.https: Flags [P.], seq 102:541, ack 114, win 501, options [nop,nop,TS val 751986096 ecr 839751331], length 439
+09:52:56.770240 IP 192.168.75.233.45412 > 162.125.40.1.https: Flags [P.], seq 541:760, ack 114, win 501, options [nop,nop,TS val 751986096 ecr 839751331], length 219
+09:52:56.891259 IP 192.168.75.233.49704 > bns1.hananet.net.domain: 34083+ A? www.dropbox.com. (33)
+09:52:56.891289 IP 192.168.75.233.49704 > bns1.hananet.net.domain: 29481+ AAAA? www.dropbox.com. (33)
+09:52:56.892849 IP bns1.hananet.net.domain > 192.168.75.233.49704: 34083 2/0/0 CNAME www-env.dropbox-dns.com., A 162.125.84.18 (86)
+09:52:56.892881 IP bns1.hananet.net.domain > 192.168.75.233.49704: 29481 2/0/0 CNAME www-env.dropbox-dns.com., AAAA 2620:100:6030:18::a27d:5012 (98)
+09:52:56.928087 IP 192.168.75.233.51038 > bns1.hananet.net.domain: 23013+ A? www.dropbox.com. (33)
+09:52:56.928117 IP 192.168.75.233.51038 > bns1.hananet.net.domain: 22497+ AAAA? www.dropbox.com. (33)
+09:52:56.929570 IP bns1.hananet.net.domain > 192.168.75.233.51038: 23013 2/0/0 CNAME www-env.dropbox-dns.com., A 162.125.84.18 (86)
+09:52:56.929673 IP bns1.hananet.net.domain > 192.168.75.233.51038: 22497 2/0/0 CNAME www-env.dropbox-dns.com., AAAA 2620:100:6030:18::a27d:5012 (98)
+09:52:56.949624 IP 192.168.75.233.56962 > bns1.hananet.net.domain: 31433+ A? www.dropbox.com. (33)
+09:52:56.949635 IP 192.168.75.233.56962 > bns1.hananet.net.domain: 52427+ AAAA? www.dropbox.com. (33)
+09:52:56.950821 IP bns1.hananet.net.domain > 192.168.75.233.56962: 31433 2/0/0 CNAME www-env.dropbox-dns.com., A 162.125.84.18 (86)
+09:52:56.950854 IP bns1.hananet.net.domain > 192.168.75.233.56962: 52427 2/0/0 CNAME www-env.dropbox-dns.com., AAAA 2620:100:6030:18::a27d:5012 (98)
+09:52:57.047394 IP 192.168.75.233.39592 > bns1.hananet.net.domain: 32585+ PTR? 233.75.168.192.in-addr.arpa. (45)
+09:52:57.057956 IP bns1.hananet.net.domain > 192.168.75.233.39592: 32585 NXDomain* 0/1/0 (100)
+09:52:57.058177 IP 192.168.75.233.33537 > bns1.hananet.net.domain: 35351+ PTR? 1.40.125.162.in-addr.arpa. (43)
+09:52:57.064870 IP 162.125.40.1.https > 192.168.75.233.45412: Flags [.], ack 541, win 130, options [nop,nop,TS val 839751894 ecr 751986096], length 0
+09:52:57.067342 IP bns1.hananet.net.domain > 192.168.75.233.33537: 35351 NXDomain 0/1/0 (93)
+09:52:57.067595 IP 192.168.75.233.57513 > bns1.hananet.net.domain: 47553+ PTR? 99.196.250.142.in-addr.arpa. (45)
+09:52:57.075909 IP bns1.hananet.net.domain > 192.168.75.233.57513: 47553 1/0/0 PTR nrt12s35-in-f3.1e100.net. (83)
+09:52:57.076141 IP 192.168.75.233.60166 > bns1.hananet.net.domain: 64215+ PTR? 20.184.121.45.in-addr.arpa. (44)
+09:52:57.109290 IP 162.125.40.1.https > 192.168.75.233.45412: Flags [.], ack 760, win 130, options [nop,nop,TS val 839751939 ecr 751986096], length 0
+09:52:57.114837 IP bns1.hananet.net.domain > 192.168.75.233.60166: 64215 NXDomain 0/1/0 (107)
+09:52:57.115120 IP 192.168.75.233.44003 > bns1.hananet.net.domain: 23426+ PTR? 82.163.220.210.in-addr.arpa. (45)
+09:52:57.123910 IP bns1.hananet.net.domain > 192.168.75.233.44003: 23426 1/0/0 PTR bns1.hananet.net. (75)
+09:52:57.130832 IP 192.168.75.233.35343 > bns1.hananet.net.domain: 12097+ A? www.dropbox.com. (33)
+09:52:57.130859 IP 192.168.75.233.35343 > bns1.hananet.net.domain: 7234+ AAAA? www.dropbox.com. (33)
+09:52:57.132001 IP bns1.hananet.net.domain > 192.168.75.233.35343: 12097 2/0/0 CNAME www-env.dropbox-dns.com., A 162.125.84.18 (86)
+09:52:57.132041 IP bns1.hananet.net.domain > 192.168.75.233.35343: 7234 2/0/0 CNAME www-env.dropbox-dns.com., AAAA 2620:100:6030:18::a27d:5012 (98)
+09:52:57.284554 IP 192.168.75.233.52011 > bns1.hananet.net.domain: 28301+ A? www.dropbox.com. (33)
+09:52:57.284574 IP 192.168.75.233.52011 > bns1.hananet.net.domain: 28297+ AAAA? www.dropbox.com. (33)
+09:52:57.285906 IP bns1.hananet.net.domain > 192.168.75.233.52011: 28301 2/0/0 CNAME www-env.dropbox-dns.com., A 162.125.84.18 (86)
+09:52:57.285942 IP bns1.hananet.net.domain > 192.168.75.233.52011: 28297 2/0/0 CNAME www-env.dropbox-dns.com., AAAA 2620:100:6030:18::a27d:5012 (98)
+09:52:57.725304 IP 192.168.75.233.38678 > bns1.hananet.net.domain: 22422+ A? www.dropbox.com. (33)
+09:52:57.725334 IP 192.168.75.233.38678 > bns1.hananet.net.domain: 29074+ AAAA? www.dropbox.com. (33)
+09:52:57.726887 IP bns1.hananet.net.domain > 192.168.75.233.38678: 22422 2/0/0 CNAME www-env.dropbox-dns.com., A 162.125.84.18 (86)
+09:52:57.726934 IP bns1.hananet.net.domain > 192.168.75.233.38678: 29074 2/0/0 CNAME www-env.dropbox-dns.com., AAAA 2620:100:6030:18::a27d:5012 (98)
+09:52:57.923361 IP 192.168.75.233.60992 > bns1.hananet.net.domain: 65099+ A? www.dropbox.com. (33)
+09:52:57.923379 IP 192.168.75.233.60992 > bns1.hananet.net.domain: 37975+ AAAA? www.dropbox.com. (33)
+09:52:57.924887 IP bns1.hananet.net.domain > 192.168.75.233.60992: 65099 2/0/0 CNAME www-env.dropbox-dns.com., A 162.125.84.18 (86)
+09:52:57.924918 IP bns1.hananet.net.domain > 192.168.75.233.60992: 37975 2/0/0 CNAME www-env.dropbox-dns.com., AAAA 2620:100:6030:18::a27d:5012 (98)
+09:52:57.931361 IP 192.168.75.233.50428 > bns1.hananet.net.domain: 62854+ A? www.dropbox.com. (33)
+09:52:57.931371 IP 192.168.75.233.50428 > bns1.hananet.net.domain: 54658+ AAAA? www.dropbox.com. (33)
+09:52:57.932767 IP bns1.hananet.net.domain > 192.168.75.233.50428: 62854 2/0/0 CNAME www-env.dropbox-dns.com., A 162.125.84.18 (86)
+09:52:57.932796 IP bns1.hananet.net.domain > 192.168.75.233.50428: 54658 2/0/0 CNAME www-env.dropbox-dns.com., AAAA 2620:100:6030:18::a27d:5012 (98)
+09:52:57.989892 IP 192.168.75.233.40993 > bns1.hananet.net.domain: 30246+ A? www.dropbox.com. (33)
+09:52:57.989912 IP 192.168.75.233.40993 > bns1.hananet.net.domain: 34852+ AAAA? www.dropbox.com. (33)
+09:52:57.990846 IP bns1.hananet.net.domain > 192.168.75.233.40993: 30246 2/0/0 CNAME www-env.dropbox-dns.com., A 162.125.84.18 (86)
+09:52:57.990876 IP bns1.hananet.net.domain > 192.168.75.233.40993: 34852 2/0/0 CNAME www-env.dropbox-dns.com., AAAA 2620:100:6030:18::a27d:5012 (98)
+09:52:57.998791 IP 192.168.75.233.35659 > bns1.hananet.net.domain: 61713+ A? www.dropbox.com. (33)
+09:52:57.998812 IP 192.168.75.233.35659 > bns1.hananet.net.domain: 55322+ AAAA? www.dropbox.com. (33)
+09:52:57.999768 IP bns1.hananet.net.domain > 192.168.75.233.35659: 61713 2/0/0 CNAME www-env.dropbox-dns.com., A 162.125.84.18 (86)
+09:52:57.999795 IP bns1.hananet.net.domain > 192.168.75.233.35659: 55322 2/0/0 CNAME www-env.dropbox-dns.com., AAAA 2620:100:6030:18::a27d:5012 (98)
+09:52:58.137825 IP 192.168.75.233.35394 > bns1.hananet.net.domain: 46258+ A? www.dropbox.com. (33)
+09:52:58.137843 IP 192.168.75.233.35394 > bns1.hananet.net.domain: 1933+ AAAA? www.dropbox.com. (33)
+09:52:58.139184 IP bns1.hananet.net.domain > 192.168.75.233.35394: 46258 2/0/0 CNAME www-env.dropbox-dns.com., A 162.125.84.18 (86)
+09:52:58.139202 IP bns1.hananet.net.domain > 192.168.75.233.35394: 1933 2/0/0 CNAME www-env.dropbox-dns.com., AAAA 2620:100:6030:18::a27d:5012 (98)
+09:52:58.159398 IP 192.168.75.233.41118 > bns1.hananet.net.domain: 47219+ A? www.dropbox.com. (33)
+09:52:58.159410 IP 192.168.75.233.41118 > bns1.hananet.net.domain: 36989+ AAAA? www.dropbox.com. (33)
+09:52:58.160948 IP bns1.hananet.net.domain > 192.168.75.233.41118: 47219 2/0/0 CNAME www-env.dropbox-dns.com., A 162.125.84.18 (86)
+09:52:58.160990 IP bns1.hananet.net.domain > 192.168.75.233.41118: 36989 2/0/0 CNAME www-env.dropbox-dns.com., AAAA 2620:100:6030:18::a27d:5012 (98)
+09:52:58.168923 IP 192.168.75.233.53684 > swe1-v1.aurorix.cloud.28038: Flags [P.], seq 1161368756:1161369292, ack 1137687635, win 590, options [nop,nop,TS val 262678569 ecr 739625061], length 536
+09:52:58.374248 IP swe1-v1.aurorix.cloud.28038 > 192.168.75.233.53684: Flags [P.], seq 1:537, ack 0, win 501, options [nop,nop,TS val 739632409 ecr 262671426], length 536
+09:52:58.374289 IP 192.168.75.233.53684 > swe1-v1.aurorix.cloud.28038: Flags [.], ack 537, win 590, options [nop,nop,TS val 262678774 ecr 739632409], length 0
+09:52:58.540229 IP swe1-v1.aurorix.cloud.28038 > 192.168.75.233.53684: Flags [.], ack 536, win 501, options [nop,nop,TS val 739632575 ecr 262678569], length 0
+09:52:58.748747 IP 192.168.75.233.56974 > bns1.hananet.net.domain: 2024+ A? www.dropbox.com. (33)
+09:52:58.748757 IP 192.168.75.233.56974 > bns1.hananet.net.domain: 40422+ AAAA? www.dropbox.com. (33)
+09:52:58.749927 IP bns1.hananet.net.domain > 192.168.75.233.56974: 2024 2/0/0 CNAME www-env.dropbox-dns.com., A 162.125.84.18 (86)
+09:52:58.749961 IP bns1.hananet.net.domain > 192.168.75.233.56974: 40422 2/0/0 CNAME www-env.dropbox-dns.com., AAAA 2620:100:6030:18::a27d:5012 (98)
+09:52:58.898292 IP 192.168.75.233.50950 > bns1.hananet.net.domain: 7959+ A? www.dropbox.com. (33)
+09:52:58.898302 IP 192.168.75.233.50950 > bns1.hananet.net.domain: 56336+ AAAA? www.dropbox.com. (33)
+09:52:58.899913 IP bns1.hananet.net.domain > 192.168.75.233.50950: 7959 2/0/0 CNAME www-env.dropbox-dns.com., A 162.125.84.18 (86)
+09:52:58.899946 IP bns1.hananet.net.domain > 192.168.75.233.50950: 56336 2/0/0 CNAME www-env.dropbox-dns.com., AAAA 2620:100:6030:18::a27d:5012 (98)
+09:52:58.939505 IP 192.168.75.233.45223 > bns1.hananet.net.domain: 60763+ A? www.dropbox.com. (33)
+09:52:58.939547 IP 192.168.75.233.45223 > bns1.hananet.net.domain: 4929+ AAAA? www.dropbox.com. (33)
+09:52:58.940788 IP bns1.hananet.net.domain > 192.168.75.233.45223: 60763 2/0/0 CNAME www-env.dropbox-dns.com., A 162.125.84.18 (86)
+09:52:58.940832 IP bns1.hananet.net.domain > 192.168.75.233.45223: 4929 2/0/0 CNAME www-env.dropbox-dns.com., AAAA 2620:100:6030:18::a27d:5012 (98)
+09:52:58.995958 IP 192.168.75.233.52792 > bns1.hananet.net.domain: 63600+ A? www.dropbox.com. (33)
+09:52:58.995977 IP 192.168.75.233.52792 > bns1.hananet.net.domain: 46453+ AAAA? www.dropbox.com. (33)
+09:52:58.996780 IP bns1.hananet.net.domain > 192.168.75.233.52792: 63600 2/0/0 CNAME www-env.dropbox-dns.com., A 162.125.84.18 (86)
+09:52:58.996826 IP bns1.hananet.net.domain > 192.168.75.233.52792: 46453 2/0/0 CNAME www-env.dropbox-dns.com., AAAA 2620:100:6030:18::a27d:5012 (98)
+09:52:59.094887 IP 192.168.75.233.32841 > bns1.hananet.net.domain: 55995+ PTR? 198.87.42.5.in-addr.arpa. (42)
+09:52:59.250340 IP 192.168.75.233.47207 > bns1.hananet.net.domain: 56331+ A? www.dropbox.com. (33)
+09:52:59.250352 IP 192.168.75.233.47207 > bns1.hananet.net.domain: 50701+ AAAA? www.dropbox.com. (33)
+09:52:59.251937 IP bns1.hananet.net.domain > 192.168.75.233.47207: 56331 2/0/0 CNAME www-env.dropbox-dns.com., A 162.125.84.18 (86)
+09:52:59.251971 IP bns1.hananet.net.domain > 192.168.75.233.47207: 50701 2/0/0 CNAME www-env.dropbox-dns.com., AAAA 2620:100:6030:18::a27d:5012 (98)
+09:52:59.322511 IP 192.168.75.233.37816 > bns1.hananet.net.domain: 49471+ A? www.dropbox.com. (33)
+09:52:59.322520 IP 192.168.75.233.37816 > bns1.hananet.net.domain: 45618+ AAAA? www.dropbox.com. (33)
+09:52:59.323883 IP bns1.hananet.net.domain > 192.168.75.233.37816: 49471 2/0/0 CNAME www-env.dropbox-dns.com., A 162.125.84.18 (86)
+09:52:59.323908 IP bns1.hananet.net.domain > 192.168.75.233.37816: 45618 2/0/0 CNAME www-env.dropbox-dns.com., AAAA 2620:100:6030:18::a27d:5012 (98)
+09:52:59.345641 IP 192.168.75.233.39702 > bns1.hananet.net.domain: 59785+ A? www.dropbox.com. (33)
+09:52:59.345652 IP 192.168.75.233.39702 > bns1.hananet.net.domain: 49551+ AAAA? www.dropbox.com. (33)
+09:52:59.346798 IP bns1.hananet.net.domain > 192.168.75.233.39702: 59785 2/0/0 CNAME www-env.dropbox-dns.com., A 162.125.84.18 (86)
+09:52:59.346823 IP bns1.hananet.net.domain > 192.168.75.233.39702: 49551 2/0/0 CNAME www-env.dropbox-dns.com., AAAA 2620:100:6030:18::a27d:5012 (98)
+09:52:59.410929 IP bns1.hananet.net.domain > 192.168.75.233.32841: 55995 1/0/0 PTR swe1-v1.aurorix.cloud. (77)
+09:52:59.488800 IP 192.168.75.233.44557 > bns1.hananet.net.domain: 51178+ A? www.dropbox.com. (33)
+09:52:59.488836 IP 192.168.75.233.44557 > bns1.hananet.net.domain: 60910+ AAAA? www.dropbox.com. (33)
+09:52:59.489891 IP bns1.hananet.net.domain > 192.168.75.233.44557: 51178 2/0/0 CNAME www-env.dropbox-dns.com., A 162.125.84.18 (86)
+09:52:59.489946 IP bns1.hananet.net.domain > 192.168.75.233.44557: 60910 2/0/0 CNAME www-env.dropbox-dns.com., AAAA 2620:100:6030:18::a27d:5012 (98)
+09:52:59.520993 IP 192.168.75.233.53635 > bns1.hananet.net.domain: 38021+ A? www.dropbox.com. (33)
+09:52:59.521006 IP 192.168.75.233.53635 > bns1.hananet.net.domain: 49795+ AAAA? www.dropbox.com. (33)
+09:52:59.521878 IP bns1.hananet.net.domain > 192.168.75.233.53635: 38021 2/0/0 CNAME www-env.dropbox-dns.com., A 162.125.84.18 (86)
+09:52:59.521915 IP bns1.hananet.net.domain > 192.168.75.233.53635: 49795 2/0/0 CNAME www-env.dropbox-dns.com., AAAA 2620:100:6030:18::a27d:5012 (98)
+09:52:59.543236 IP 192.168.75.233.40341 > bns1.hananet.net.domain: 48558+ A? www.dropbox.com. (33)
+09:52:59.543248 IP 192.168.75.233.40341 > bns1.hananet.net.domain: 53933+ AAAA? www.dropbox.com. (33)
+09:52:59.544806 IP bns1.hananet.net.domain > 192.168.75.233.40341: 48558 2/0/0 CNAME www-env.dropbox-dns.com., A 162.125.84.18 (86)
+09:52:59.544837 IP bns1.hananet.net.domain > 192.168.75.233.40341: 53933 2/0/0 CNAME www-env.dropbox-dns.com., AAAA 2620:100:6030:18::a27d:5012 (98)
+09:52:59.565570 IP 192.168.75.233.35803 > bns1.hananet.net.domain: 29294+ A? www.dropbox.com. (33)
+09:52:59.565580 IP 192.168.75.233.35803 > bns1.hananet.net.domain: 8300+ AAAA? www.dropbox.com. (33)
+09:52:59.566813 IP bns1.hananet.net.domain > 192.168.75.233.35803: 29294 2/0/0 CNAME www-env.dropbox-dns.com., A 162.125.84.18 (86)
+09:52:59.566843 IP bns1.hananet.net.domain > 192.168.75.233.35803: 8300 2/0/0 CNAME www-env.dropbox-dns.com., AAAA 2620:100:6030:18::a27d:5012 (98)
+09:52:59.587742 IP 192.168.75.233.59595 > bns1.hananet.net.domain: 42231+ A? www.dropbox.com. (33)
+09:52:59.587754 IP 192.168.75.233.59595 > bns1.hananet.net.domain: 35312+ AAAA? www.dropbox.com. (33)
+09:52:59.588841 IP bns1.hananet.net.domain > 192.168.75.233.59595: 42231 2/0/0 CNAME www-env.dropbox-dns.com., A 162.125.84.18 (86)
+09:52:59.588865 IP bns1.hananet.net.domain > 192.168.75.233.59595: 35312 2/0/0 CNAME www-env.dropbox-dns.com., AAAA 2620:100:6030:18::a27d:5012 (98)
+09:52:59.608907 IP 192.168.75.233.41977 > bns1.hananet.net.domain: 11823+ A? www.dropbox.com. (33)
+09:52:59.608917 IP 192.168.75.233.41977 > bns1.hananet.net.domain: 47649+ AAAA? www.dropbox.com. (33)
+09:52:59.609792 IP bns1.hananet.net.domain > 192.168.75.233.41977: 11823 2/0/0 CNAME www-env.dropbox-dns.com., A 162.125.84.18 (86)
+09:52:59.609826 IP bns1.hananet.net.domain > 192.168.75.233.41977: 47649 2/0/0 CNAME www-env.dropbox-dns.com., AAAA 2620:100:6030:18::a27d:5012 (98)
+09:52:59.654939 IP 192.168.75.233.45412 > 162.125.40.1.https: Flags [P.], seq 760:796, ack 114, win 501, options [nop,nop,TS val 751988981 ecr 839751939], length 36
+09:52:59.654979 IP 192.168.75.233.45412 > 162.125.40.1.https: Flags [P.], seq 796:868, ack 114, win 501, options [nop,nop,TS val 751988981 ecr 839751939], length 72
+09:52:59.655020 IP 192.168.75.233.45412 > 162.125.40.1.https: Flags [P.], seq 868:904, ack 114, win 501, options [nop,nop,TS val 751988981 ecr 839751939], length 36
+09:52:59.655040 IP 192.168.75.233.45412 > 162.125.40.1.https: Flags [P.], seq 904:940, ack 114, win 501, options [nop,nop,TS val 751988981 ecr 839751939], length 36
+09:52:59.682741 IP 192.168.75.233.39746 > nrt12s35-in-f3.1e100.net.http: Flags [F.], seq 1, ack 1, win 501, options [nop,nop,TS val 986642366 ecr 620950157], length 0
+09:52:59.696032 IP 192.168.75.233.52428 > bns1.hananet.net.domain: 42159+ A? www.dropbox.com. (33)
+09:52:59.696047 IP 192.168.75.233.52428 > bns1.hananet.net.domain: 25427+ AAAA? www.dropbox.com. (33)
+09:52:59.697009 IP bns1.hananet.net.domain > 192.168.75.233.52428: 42159 2/0/0 CNAME www-env.dropbox-dns.com., A 162.125.84.18 (86)
+09:52:59.697062 IP bns1.hananet.net.domain > 192.168.75.233.52428: 25427 2/0/0 CNAME www-env.dropbox-dns.com., AAAA 2620:100:6030:18::a27d:5012 (98)
+09:52:59.721304 IP nrt12s35-in-f3.1e100.net.http > 192.168.75.233.39746: Flags [F.], seq 1, ack 2, win 273, options [nop,nop,TS val 620953273 ecr 986642366], length 0
+09:52:59.721343 IP 192.168.75.233.39746 > nrt12s35-in-f3.1e100.net.http: Flags [.], ack 2, win 501, options [nop,nop,TS val 986642404 ecr 620953273], length 0
+09:52:59.751701 IP 192.168.75.233.50835 > bns1.hananet.net.domain: 19653+ A? www.dropbox.com. (33)
+09:52:59.751717 IP 192.168.75.233.50835 > bns1.hananet.net.domain: 59848+ AAAA? www.dropbox.com. (33)
+09:52:59.752929 IP bns1.hananet.net.domain > 192.168.75.233.50835: 19653 2/0/0 CNAME www-env.dropbox-dns.com., A 162.125.84.18 (86)
+09:52:59.752965 IP bns1.hananet.net.domain > 192.168.75.233.50835: 59848 2/0/0 CNAME www-env.dropbox-dns.com., AAAA 2620:100:6030:18::a27d:5012 (98)
+09:52:59.796467 IP 192.168.75.233.50138 > bns1.hananet.net.domain: 20638+ A? play.google.com. (33)
+09:52:59.796478 IP 192.168.75.233.50138 > bns1.hananet.net.domain: 15516+ AAAA? play.google.com. (33)
+09:52:59.797860 IP bns1.hananet.net.domain > 192.168.75.233.50138: 20638 1/0/0 A 142.250.198.14 (49)
+09:52:59.797890 IP bns1.hananet.net.domain > 192.168.75.233.50138: 15516 1/0/0 AAAA 2404:6800:4004:825::200e (61)
+09:52:59.802344 IP 192.168.75.233.54652 > bns1.hananet.net.domain: 58517+ A? play.google.com. (33)
+09:52:59.802357 IP 192.168.75.233.54652 > bns1.hananet.net.domain: 41105+ AAAA? play.google.com. (33)
+09:52:59.803746 IP bns1.hananet.net.domain > 192.168.75.233.54652: 58517 1/0/0 A 142.250.198.14 (49)
+09:52:59.803776 IP bns1.hananet.net.domain > 192.168.75.233.54652: 41105 1/0/0 AAAA 2404:6800:4004:825::200e (61)
+09:52:59.808582 IP 192.168.75.233.38774 > bns1.hananet.net.domain: 29800+ A? play.google.com. (33)
+09:52:59.808608 IP 192.168.75.233.38774 > bns1.hananet.net.domain: 875+ AAAA? play.google.com. (33)
+09:52:59.809675 IP bns1.hananet.net.domain > 192.168.75.233.38774: 29800 1/0/0 A 142.250.198.14 (49)
+09:52:59.809710 IP bns1.hananet.net.domain > 192.168.75.233.38774: 875 1/0/0 AAAA 2404:6800:4004:825::200e (61)
+09:52:59.879043 IP 192.168.75.233.40104 > bns1.hananet.net.domain: 20360+ A? www.dropbox.com. (33)
+09:52:59.879055 IP 192.168.75.233.40104 > bns1.hananet.net.domain: 9102+ AAAA? www.dropbox.com. (33)
+09:52:59.879947 IP bns1.hananet.net.domain > 192.168.75.233.40104: 20360 2/0/0 CNAME www-env.dropbox-dns.com., A 162.125.84.18 (86)
+09:52:59.879991 IP bns1.hananet.net.domain > 192.168.75.233.40104: 9102 2/0/0 CNAME www-env.dropbox-dns.com., AAAA 2620:100:6030:18::a27d:5012 (98)
+09:52:59.889546 IP 192.168.75.233.39551 > nrt12s29-in-f10.1e100.net.https: UDP, length 37
+09:52:59.892273 IP 192.168.75.233.56170 > bns1.hananet.net.domain: 17550+ A? www.dropbox.com. (33)
+09:52:59.892283 IP 192.168.75.233.56170 > bns1.hananet.net.domain: 33424+ AAAA? www.dropbox.com. (33)
+09:52:59.893815 IP bns1.hananet.net.domain > 192.168.75.233.56170: 17550 2/0/0 CNAME www-env.dropbox-dns.com., A 162.125.84.18 (86)
+09:52:59.893851 IP bns1.hananet.net.domain > 192.168.75.233.56170: 33424 2/0/0 CNAME www-env.dropbox-dns.com., AAAA 2620:100:6030:18::a27d:5012 (98)
+09:52:59.927852 IP nrt12s29-in-f10.1e100.net.https > 192.168.75.233.39551: UDP, length 34
+09:52:59.948486 IP 192.168.75.233.39551 > nrt12s29-in-f10.1e100.net.https: UDP, length 33
+09:52:59.953029 IP 162.125.40.1.https > 192.168.75.233.45412: Flags [.], ack 796, win 130, options [nop,nop,TS val 839754782 ecr 751988981], length 0
+09:52:59.954955 IP 162.125.40.1.https > 192.168.75.233.45412: Flags [.], ack 868, win 130, options [nop,nop,TS val 839754784 ecr 751988981], length 0
+09:52:59.954964 IP 162.125.40.1.https > 192.168.75.233.45412: Flags [.], ack 904, win 130, options [nop,nop,TS val 839754784 ecr 751988981], length 0
+09:52:59.956654 IP 162.125.40.1.https > 192.168.75.233.45412: Flags [.], ack 940, win 130, options [nop,nop,TS val 839754786 ecr 751988981], length 0
+09:53:00.119218 IP 192.168.75.233.56286 > bns1.hananet.net.domain: 10455+ PTR? 234.175.217.172.in-addr.arpa. (46)
+09:53:00.129855 IP bns1.hananet.net.domain > 192.168.75.233.56286: 10455 1/0/0 PTR nrt12s29-in-f10.1e100.net. (85)
+09:53:00.238786 IP 192.168.75.233.59486 > bns1.hananet.net.domain: 27052+ A? www.dropbox.com. (33)
+09:53:00.238798 IP 192.168.75.233.59486 > bns1.hananet.net.domain: 43681+ AAAA? www.dropbox.com. (33)
+09:53:00.239962 IP bns1.hananet.net.domain > 192.168.75.233.59486: 27052 2/0/0 CNAME www-env.dropbox-dns.com., A 162.125.84.18 (86)
+09:53:00.239992 IP bns1.hananet.net.domain > 192.168.75.233.59486: 43681 2/0/0 CNAME www-env.dropbox-dns.com., AAAA 2620:100:6030:18::a27d:5012 (98)
+09:53:00.357157 IP 192.168.75.233.47012 > bns1.hananet.net.domain: 37558+ A? www.dropbox.com. (33)
+09:53:00.357168 IP 192.168.75.233.47012 > bns1.hananet.net.domain: 10420+ AAAA? www.dropbox.com. (33)
+09:53:00.358911 IP bns1.hananet.net.domain > 192.168.75.233.47012: 37558 2/0/0 CNAME www-env.dropbox-dns.com., A 162.125.84.18 (86)
+09:53:00.358941 IP bns1.hananet.net.domain > 192.168.75.233.47012: 10420 2/0/0 CNAME www-env.dropbox-dns.com., AAAA 2620:100:6030:18::a27d:5012 (98)
+09:53:00.381987 IP 192.168.75.233.44978 > bns1.hananet.net.domain: 38201+ A? www.dropbox.com. (33)
+09:53:00.382000 IP 192.168.75.233.44978 > bns1.hananet.net.domain: 10039+ AAAA? www.dropbox.com. (33)
+09:53:00.382763 IP bns1.hananet.net.domain > 192.168.75.233.44978: 38201 2/0/0 CNAME www-env.dropbox-dns.com., A 162.125.84.18 (86)
+09:53:00.382802 IP bns1.hananet.net.domain > 192.168.75.233.44978: 10039 2/0/0 CNAME www-env.dropbox-dns.com., AAAA 2620:100:6030:18::a27d:5012 (98)
+09:53:00.462192 IP 192.168.75.233.48349 > bns1.hananet.net.domain: 56854+ A? www.dropbox.com. (33)
+09:53:00.462202 IP 192.168.75.233.48349 > bns1.hananet.net.domain: 11784+ AAAA? www.dropbox.com. (33)
+09:53:00.463821 IP bns1.hananet.net.domain > 192.168.75.233.48349: 56854 2/0/0 CNAME www-env.dropbox-dns.com., A 162.125.84.18 (86)
+09:53:00.463861 IP bns1.hananet.net.domain > 192.168.75.233.48349: 11784 2/0/0 CNAME www-env.dropbox-dns.com., AAAA 2620:100:6030:18::a27d:5012 (98)
+09:53:00.509628 IP 192.168.75.233.45440 > bns1.hananet.net.domain: 50199+ A? www.dropbox.com. (33)
+09:53:00.509638 IP 192.168.75.233.45440 > bns1.hananet.net.domain: 9747+ AAAA? www.dropbox.com. (33)
+09:53:00.510809 IP bns1.hananet.net.domain > 192.168.75.233.45440: 50199 2/0/0 CNAME www-env.dropbox-dns.com., A 162.125.84.18 (86)
+09:53:00.510840 IP bns1.hananet.net.domain > 192.168.75.233.45440: 9747 2/0/0 CNAME www-env.dropbox-dns.com., AAAA 2620:100:6030:18::a27d:5012 (98)
+09:53:00.577862 IP 192.168.75.233.53089 > bns1.hananet.net.domain: 19385+ A? www.dropbox.com. (33)
+09:53:00.577883 IP 192.168.75.233.53089 > bns1.hananet.net.domain: 56962+ AAAA? www.dropbox.com. (33)
+09:53:00.578905 IP bns1.hananet.net.domain > 192.168.75.233.53089: 19385 2/0/0 CNAME www-env.dropbox-dns.com., A 162.125.84.18 (86)
+09:53:00.578944 IP bns1.hananet.net.domain > 192.168.75.233.53089: 56962 2/0/0 CNAME www-env.dropbox-dns.com., AAAA 2620:100:6030:18::a27d:5012 (98)
+09:53:00.644034 IP 192.168.75.233.36239 > bns1.hananet.net.domain: 31304+ A? www.dropbox.com. (33)
+09:53:00.644044 IP 192.168.75.233.36239 > bns1.hananet.net.domain: 36938+ AAAA? www.dropbox.com. (33)
+09:53:00.644940 IP bns1.hananet.net.domain > 192.168.75.233.36239: 31304 2/0/0 CNAME www-env.dropbox-dns.com., A 162.125.84.18 (86)
+09:53:00.644978 IP bns1.hananet.net.domain > 192.168.75.233.36239: 36938 2/0/0 CNAME www-env.dropbox-dns.com., AAAA 2620:100:6030:18::a27d:5012 (98)
+09:53:00.781948 IP 192.168.75.233.43243 > bns1.hananet.net.domain: 1091+ A? www.dropbox.com. (33)
+09:53:00.781958 IP 192.168.75.233.43243 > bns1.hananet.net.domain: 8518+ AAAA? www.dropbox.com. (33)
+09:53:00.782880 IP bns1.hananet.net.domain > 192.168.75.233.43243: 1091 2/0/0 CNAME www-env.dropbox-dns.com., A 162.125.84.18 (86)
+09:53:00.782924 IP bns1.hananet.net.domain > 192.168.75.233.43243: 8518 2/0/0 CNAME www-env.dropbox-dns.com., AAAA 2620:100:6030:18::a27d:5012 (98)
+09:53:00.882161 IP 192.168.75.233.36627 > bns1.hananet.net.domain: 32360+ A? www.dropbox.com. (33)
+09:53:00.882190 IP 192.168.75.233.36627 > bns1.hananet.net.domain: 44652+ AAAA? www.dropbox.com. (33)
+09:53:00.883906 IP bns1.hananet.net.domain > 192.168.75.233.36627: 32360 2/0/0 CNAME www-env.dropbox-dns.com., A 162.125.84.18 (86)
+09:53:00.883948 IP bns1.hananet.net.domain > 192.168.75.233.36627: 44652 2/0/0 CNAME www-env.dropbox-dns.com., AAAA 2620:100:6030:18::a27d:5012 (98)
+09:53:00.888566 IP 192.168.75.233.42220 > bns1.hananet.net.domain: 5187+ A? www.dropbox.com. (33)
+09:53:00.888603 IP 192.168.75.233.42220 > bns1.hananet.net.domain: 59718+ AAAA? www.dropbox.com. (33)
+09:53:00.889761 IP bns1.hananet.net.domain > 192.168.75.233.42220: 5187 2/0/0 CNAME www-env.dropbox-dns.com., A 162.125.84.18 (86)
+09:53:00.889800 IP bns1.hananet.net.domain > 192.168.75.233.42220: 59718 2/0/0 CNAME www-env.dropbox-dns.com., AAAA 2620:100:6030:18::a27d:5012 (98)
+09:53:00.918425 IP 192.168.75.233.56634 > bns1.hananet.net.domain: 19185+ A? www.dropbox.com. (33)
+09:53:00.918439 IP 192.168.75.233.56634 > bns1.hananet.net.domain: 16884+ AAAA? www.dropbox.com. (33)
+09:53:00.919824 IP bns1.hananet.net.domain > 192.168.75.233.56634: 19185 2/0/0 CNAME www-env.dropbox-dns.com., A 162.125.84.18 (86)
+09:53:00.919860 IP bns1.hananet.net.domain > 192.168.75.233.56634: 16884 2/0/0 CNAME www-env.dropbox-dns.com., AAAA 2620:100:6030:18::a27d:5012 (98)
+09:53:01.090852 IP 192.168.75.233.45412 > 162.125.40.1.https: Flags [P.], seq 940:975, ack 114, win 501, options [nop,nop,TS val 751990417 ecr 839754786], length 35
+09:53:01.090970 IP 192.168.75.233.45412 > 162.125.40.1.https: Flags [P.], seq 975:1010, ack 114, win 501, options [nop,nop,TS val 751990417 ecr 839754786], length 35
+09:53:01.091066 IP 192.168.75.233.45412 > 162.125.40.1.https: Flags [P.], seq 1010:1045, ack 114, win 501, options [nop,nop,TS val 751990417 ecr 839754786], length 35
+09:53:01.091124 IP 192.168.75.233.45412 > 162.125.40.1.https: Flags [P.], seq 1045:1080, ack 114, win 501, options [nop,nop,TS val 751990417 ecr 839754786], length 35
+09:53:01.091182 IP 192.168.75.233.45412 > 162.125.40.1.https: Flags [P.], seq 1080:1115, ack 114, win 501, options [nop,nop,TS val 751990417 ecr 839754786], length 35
+09:53:01.094262 IP 192.168.75.233.39406 > tk-in-f129.1e100.net.https: Flags [P.], seq 28113216:28113262, ack 141657176, win 501, options [nop,nop,TS val 3993055294 ecr 3973342767], length 46
+09:53:01.114398 IP 192.168.75.233.49158 > 93.243.107.34.bc.googleusercontent.com.https: Flags [P.], seq 377000283:377000311, ack 1899634497, win 501, options [nop,nop,TS val 3449135 ecr 591900221], length 28
+09:53:01.119453 IP 93.243.107.34.bc.googleusercontent.com.https > 192.168.75.233.49158: Flags [.], ack 28, win 262, options [nop,nop,TS val 591949795 ecr 3449135], length 0
+09:53:01.128716 IP 192.168.75.233.33134 > 162.125.84.18.https: Flags [P.], seq 2087262663:2087262901, ack 1826164316, win 4471, options [nop,nop,TS val 3313635520 ecr 2819690862], length 238
+09:53:01.128741 IP 192.168.75.233.33134 > 162.125.84.18.https: Flags [P.], seq 238:1491, ack 1, win 4471, options [nop,nop,TS val 3313635520 ecr 2819690862], length 1253
+09:53:01.135671 IP 192.168.75.233.39406 > tk-in-f129.1e100.net.https: Flags [P.], seq 46:92, ack 1, win 501, options [nop,nop,TS val 3993055336 ecr 3973342767], length 46
+09:53:01.135806 IP 192.168.75.233.57938 > nrt12s35-in-f10.1e100.net.https: Flags [P.], seq 3034403769:3034403808, ack 782146252, win 501, options [nop,nop,TS val 843336101 ecr 1075523312], length 39
+09:53:01.135953 IP 192.168.75.233.60652 > nrt12s45-in-f10.1e100.net.https: Flags [P.], seq 3774722695:3774722734, ack 1509495173, win 501, options [nop,nop,TS val 1366235466 ecr 2846306], length 39
+09:53:01.136064 IP 192.168.75.233.58800 > nrt12s47-in-f14.1e100.net.https: Flags [P.], seq 4016757332:4016757371, ack 3594452484, win 501, options [nop,nop,TS val 526833389 ecr 3882323590], length 39
+09:53:01.136606 IP 192.168.75.233.43502 > nrt13s71-in-f5.1e100.net.https: Flags [P.], seq 685407182:685407221, ack 3891682905, win 501, options [nop,nop,TS val 1632348242 ecr 2454051509], length 39
+09:53:01.136713 IP 192.168.75.233.53206 > nrt12s51-in-f10.1e100.net.https: Flags [P.], seq 3989464358:3989464397, ack 3454435080, win 501, options [nop,nop,TS val 3802227816 ecr 184746846], length 39
+09:53:01.136812 IP 192.168.75.233.53520 > nrt12s58-in-f14.1e100.net.https: Flags [P.], seq 1999146309:1999146348, ack 1203691594, win 501, options [nop,nop,TS val 375254116 ecr 232977102], length 39
+09:53:01.137069 IP 192.168.75.233.60684 > 140.227.186.35.bc.googleusercontent.com.https: Flags [P.], seq 3103578916:3103578955, ack 1234053707, win 501, options [nop,nop,TS val 4055550197 ecr 1519458381], length 39
+09:53:01.137187 IP 192.168.75.233.43286 > nrt13s72-in-f5.1e100.net.https: Flags [P.], seq 3630233605:3630233644, ack 2551746499, win 16943, options [nop,nop,TS val 2147367509 ecr 2097196117], length 39
+09:53:01.137514 IP 192.168.75.233.45626 > nrt20s18-in-f3.1e100.net.https: Flags [P.], seq 3600243929:3600243968, ack 270271929, win 501, options [nop,nop,TS val 1393243385 ecr 3399690171], length 39
+09:53:01.137601 IP 192.168.75.233.34754 > ec2-34-239-210-108.compute-1.amazonaws.com.https: Flags [P.], seq 1946058241:1946058287, ack 3330665934, win 501, options [nop,nop,TS val 2353688730 ecr 1252857659], length 46
+09:53:01.137679 IP 192.168.75.233.53360 > nrt13s72-in-f3.1e100.net.https: Flags [P.], seq 576273295:576273334, ack 1118470448, win 501, options [nop,nop,TS val 33089090 ecr 226294346], length 39
+09:53:01.137749 IP 192.168.75.233.39150 > nrt13s55-in-f10.1e100.net.https: Flags [P.], seq 3294761340:3294761379, ack 1369295955, win 501, options [nop,nop,TS val 909174696 ecr 1634769643], length 39
+09:53:01.137872 IP 192.168.75.233.45412 > 162.125.40.1.https: Flags [P.], seq 1115:1154, ack 114, win 501, options [nop,nop,TS val 751990464 ecr 839754786], length 39
+09:53:01.138001 IP 192.168.75.233.43816 > nrt20s21-in-f3.1e100.net.https: Flags [P.], seq 884909052:884909091, ack 1305911332, win 501, options [nop,nop,TS val 4293737929 ecr 3544809698], length 39
+09:53:01.138128 IP 192.168.75.233.33134 > 162.125.84.18.https: Flags [P.], seq 1491:1530, ack 1, win 4471, options [nop,nop,TS val 3313635529 ecr 2819690862], length 39
+09:53:01.138257 IP 192.168.75.233.53918 > 166.188.117.34.bc.googleusercontent.com.https: Flags [P.], seq 2956287943:2956287982, ack 242294153, win 501, options [nop,nop,TS val 3550118401 ecr 3063675604], length 39
+09:53:01.138311 IP 192.168.75.233.39612 > nrt20s18-in-f3.1e100.net.https: Flags [P.], seq 3776921995:3776922034, ack 3449087476, win 501, options [nop,nop,TS val 1393243385 ecr 2607672164], length 39
+09:53:01.138501 IP 192.168.75.233.57484 > 162.125.8.20.https: Flags [P.], seq 3435701479:3435701518, ack 2409921232, win 501, options [nop,nop,TS val 3742995085 ecr 1314938504], length 39
+09:53:01.138572 IP 192.168.75.233.54138 > nrt20s19-in-f14.1e100.net.https: Flags [P.], seq 474331236:474331275, ack 942262917, win 501, options [nop,nop,TS val 1814503782 ecr 4138740592], length 39
+09:53:01.138665 IP 192.168.75.233.51666 > nrt12s35-in-f3.1e100.net.https: Flags [P.], seq 4112938351:4112938390, ack 875266484, win 501, options [nop,nop,TS val 986643822 ecr 835411922], length 39
+09:53:01.138798 IP 192.168.75.233.55238 > tp-in-f129.1e100.net.https: Flags [P.], seq 1514516579:1514516625, ack 2838623658, win 501, options [nop,nop,TS val 2418968142 ecr 405623460], length 46
+09:53:01.138859 IP 192.168.75.233.43808 > nrt20s21-in-f3.1e100.net.https: Flags [P.], seq 3024466238:3024466277, ack 529899535, win 1788, options [nop,nop,TS val 4293737930 ecr 2396158000], length 39
+09:53:01.139134 IP 192.168.75.233.45082 > nrt13s72-in-f3.1e100.net.https: Flags [P.], seq 671987729:671987768, ack 3135940670, win 501, options [nop,nop,TS val 33089091 ecr 1905737461], length 39
+09:53:01.139248 IP 192.168.75.233.50234 > 162.125.84.18.https: Flags [P.], seq 4292493845:4292493884, ack 3884256086, win 1429, options [nop,nop,TS val 3313635530 ecr 1573107038], length 39
+09:53:01.139442 IP 192.168.75.233.45626 > nrt20s18-in-f3.1e100.net.https: Flags [P.], seq 39:63, ack 1, win 501, options [nop,nop,TS val 1393243387 ecr 3399690171], length 24
+09:53:01.139457 IP 192.168.75.233.45626 > nrt20s18-in-f3.1e100.net.https: Flags [F.], seq 63, ack 1, win 501, options [nop,nop,TS val 1393243387 ecr 3399690171], length 0
+09:53:01.139688 IP 192.168.75.233.53360 > nrt13s72-in-f3.1e100.net.https: Flags [P.], seq 39:63, ack 1, win 501, options [nop,nop,TS val 33089092 ecr 226294346], length 24
+09:53:01.139703 IP 192.168.75.233.53360 > nrt13s72-in-f3.1e100.net.https: Flags [F.], seq 63, ack 1, win 501, options [nop,nop,TS val 33089092 ecr 226294346], length 0
+09:53:01.139909 IP 192.168.75.233.43808 > nrt20s21-in-f3.1e100.net.https: Flags [P.], seq 39:63, ack 1, win 1788, options [nop,nop,TS val 4293737931 ecr 2396158000], length 24
+09:53:01.139917 IP 192.168.75.233.43808 > nrt20s21-in-f3.1e100.net.https: Flags [F.], seq 63, ack 1, win 1788, options [nop,nop,TS val 4293737931 ecr 2396158000], length 0
+09:53:01.140050 IP 192.168.75.233.39406 > tk-in-f129.1e100.net.https: Flags [P.], seq 92:123, ack 1, win 501, options [nop,nop,TS val 3993055340 ecr 3973342767], length 31
+09:53:01.140059 IP 192.168.75.233.39406 > tk-in-f129.1e100.net.https: Flags [F.], seq 123, ack 1, win 501, options [nop,nop,TS val 3993055340 ecr 3973342767], length 0
+09:53:01.140190 IP 192.168.75.233.60684 > 140.227.186.35.bc.googleusercontent.com.https: Flags [P.], seq 39:63, ack 1, win 501, options [nop,nop,TS val 4055550200 ecr 1519458381], length 24
+09:53:01.140198 IP 192.168.75.233.60684 > 140.227.186.35.bc.googleusercontent.com.https: Flags [F.], seq 63, ack 1, win 501, options [nop,nop,TS val 4055550200 ecr 1519458381], length 0
+09:53:01.140590 IP 192.168.75.233.45412 > 162.125.40.1.https: Flags [P.], seq 1154:1178, ack 114, win 501, options [nop,nop,TS val 751990467 ecr 839754786], length 24
+09:53:01.140599 IP 192.168.75.233.45412 > 162.125.40.1.https: Flags [F.], seq 1178, ack 114, win 501, options [nop,nop,TS val 751990467 ecr 839754786], length 0
+09:53:01.140760 IP 192.168.75.233.51666 > nrt12s35-in-f3.1e100.net.https: Flags [P.], seq 39:63, ack 1, win 501, options [nop,nop,TS val 986643824 ecr 835411922], length 24
+09:53:01.140769 IP 192.168.75.233.51666 > nrt12s35-in-f3.1e100.net.https: Flags [F.], seq 63, ack 1, win 501, options [nop,nop,TS val 986643824 ecr 835411922], length 0
+09:53:01.140957 IP 192.168.75.233.43816 > nrt20s21-in-f3.1e100.net.https: Flags [P.], seq 39:63, ack 1, win 501, options [nop,nop,TS val 4293737932 ecr 3544809698], length 24
+09:53:01.140965 IP 192.168.75.233.43816 > nrt20s21-in-f3.1e100.net.https: Flags [F.], seq 63, ack 1, win 501, options [nop,nop,TS val 4293737932 ecr 3544809698], length 0
+09:53:01.141073 IP 192.168.75.233.45082 > nrt13s72-in-f3.1e100.net.https: Flags [P.], seq 39:63, ack 1, win 501, options [nop,nop,TS val 33089093 ecr 1905737461], length 24
+09:53:01.141080 IP 192.168.75.233.45082 > nrt13s72-in-f3.1e100.net.https: Flags [F.], seq 63, ack 1, win 501, options [nop,nop,TS val 33089093 ecr 1905737461], length 0
+09:53:01.141186 IP 192.168.75.233.53918 > 166.188.117.34.bc.googleusercontent.com.https: Flags [P.], seq 39:63, ack 1, win 501, options [nop,nop,TS val 3550118404 ecr 3063675604], length 24
+09:53:01.141192 IP 192.168.75.233.53918 > 166.188.117.34.bc.googleusercontent.com.https: Flags [F.], seq 63, ack 1, win 501, options [nop,nop,TS val 3550118404 ecr 3063675604], length 0
+09:53:01.141530 IP 192.168.75.233.53206 > nrt12s51-in-f10.1e100.net.https: Flags [P.], seq 39:63, ack 1, win 501, options [nop,nop,TS val 3802227821 ecr 184746846], length 24
+09:53:01.141537 IP 192.168.75.233.53206 > nrt12s51-in-f10.1e100.net.https: Flags [F.], seq 63, ack 1, win 501, options [nop,nop,TS val 3802227821 ecr 184746846], length 0
+09:53:01.141675 IP 192.168.75.233.57484 > 162.125.8.20.https: Flags [P.], seq 39:63, ack 1, win 501, options [nop,nop,TS val 3742995088 ecr 1314938504], length 24
+09:53:01.141683 IP 192.168.75.233.57484 > 162.125.8.20.https: Flags [F.], seq 63, ack 1, win 501, options [nop,nop,TS val 3742995088 ecr 1314938504], length 0
+09:53:01.141836 IP 192.168.75.233.50234 > 162.125.84.18.https: Flags [P.], seq 39:63, ack 1, win 1429, options [nop,nop,TS val 3313635533 ecr 1573107038], length 24
+09:53:01.141843 IP 192.168.75.233.50234 > 162.125.84.18.https: Flags [F.], seq 63, ack 1, win 1429, options [nop,nop,TS val 3313635533 ecr 1573107038], length 0
+09:53:01.141953 IP 192.168.75.233.60652 > nrt12s45-in-f10.1e100.net.https: Flags [P.], seq 39:63, ack 1, win 501, options [nop,nop,TS val 1366235472 ecr 2846306], length 24
+09:53:01.141960 IP 192.168.75.233.60652 > nrt12s45-in-f10.1e100.net.https: Flags [F.], seq 63, ack 1, win 501, options [nop,nop,TS val 1366235472 ecr 2846306], length 0
+09:53:01.142103 IP 192.168.75.233.53520 > nrt12s58-in-f14.1e100.net.https: Flags [P.], seq 39:63, ack 1, win 501, options [nop,nop,TS val 375254121 ecr 232977102], length 24
+09:53:01.142111 IP 192.168.75.233.53520 > nrt12s58-in-f14.1e100.net.https: Flags [F.], seq 63, ack 1, win 501, options [nop,nop,TS val 375254121 ecr 232977102], length 0
+09:53:01.142417 IP 192.168.75.233.58800 > nrt12s47-in-f14.1e100.net.https: Flags [P.], seq 39:63, ack 1, win 501, options [nop,nop,TS val 526833395 ecr 3882323590], length 24
+09:53:01.142425 IP 192.168.75.233.58800 > nrt12s47-in-f14.1e100.net.https: Flags [F.], seq 63, ack 1, win 501, options [nop,nop,TS val 526833396 ecr 3882323590], length 0
+09:53:01.142545 IP 192.168.75.233.43286 > nrt13s72-in-f5.1e100.net.https: Flags [P.], seq 39:63, ack 1, win 16943, options [nop,nop,TS val 2147367515 ecr 2097196117], length 24
+09:53:01.142552 IP 192.168.75.233.43286 > nrt13s72-in-f5.1e100.net.https: Flags [F.], seq 63, ack 1, win 16943, options [nop,nop,TS val 2147367515 ecr 2097196117], length 0
+09:53:01.142668 IP 192.168.75.233.34754 > ec2-34-239-210-108.compute-1.amazonaws.com.https: Flags [P.], seq 46:77, ack 1, win 501, options [nop,nop,TS val 2353688735 ecr 1252857659], length 31
+09:53:01.142676 IP 192.168.75.233.34754 > ec2-34-239-210-108.compute-1.amazonaws.com.https: Flags [F.], seq 77, ack 1, win 501, options [nop,nop,TS val 2353688735 ecr 1252857659], length 0
+09:53:01.142822 IP 192.168.75.233.55238 > tp-in-f129.1e100.net.https: Flags [P.], seq 46:77, ack 1, win 501, options [nop,nop,TS val 2418968146 ecr 405623460], length 31
+09:53:01.142830 IP 192.168.75.233.55238 > tp-in-f129.1e100.net.https: Flags [F.], seq 77, ack 1, win 501, options [nop,nop,TS val 2418968146 ecr 405623460], length 0
+09:53:01.142930 IP 192.168.75.233.39612 > nrt20s18-in-f3.1e100.net.https: Flags [P.], seq 39:63, ack 1, win 501, options [nop,nop,TS val 1393243390 ecr 2607672164], length 24
+09:53:01.142936 IP 192.168.75.233.39612 > nrt20s18-in-f3.1e100.net.https: Flags [F.], seq 63, ack 1, win 501, options [nop,nop,TS val 1393243390 ecr 2607672164], length 0
+09:53:01.142959 IP 140.227.186.35.bc.googleusercontent.com.https > 192.168.75.233.60684: Flags [.], ack 39, win 376, options [nop,nop,TS val 1519511235 ecr 4055550197], length 0
+09:53:01.143015 IP 192.168.75.233.39524 > bns1.hananet.net.domain: 32637+ PTR? 129.188.233.64.in-addr.arpa. (45)
+09:53:01.143254 IP 192.168.75.233.43502 > nrt13s71-in-f5.1e100.net.https: Flags [P.], seq 39:63, ack 1, win 501, options [nop,nop,TS val 1632348248 ecr 2454051509], length 24
+09:53:01.143261 IP 192.168.75.233.43502 > nrt13s71-in-f5.1e100.net.https: Flags [F.], seq 63, ack 1, win 501, options [nop,nop,TS val 1632348248 ecr 2454051509], length 0
+09:53:01.143361 IP 192.168.75.233.39150 > nrt13s55-in-f10.1e100.net.https: Flags [P.], seq 39:63, ack 1, win 501, options [nop,nop,TS val 909174701 ecr 1634769643], length 24
+09:53:01.143369 IP 192.168.75.233.39150 > nrt13s55-in-f10.1e100.net.https: Flags [F.], seq 63, ack 1, win 501, options [nop,nop,TS val 909174701 ecr 1634769643], length 0
+09:53:01.143481 IP 192.168.75.233.57938 > nrt12s35-in-f10.1e100.net.https: Flags [P.], seq 39:63, ack 1, win 501, options [nop,nop,TS val 843336109 ecr 1075523312], length 24
+09:53:01.143488 IP 192.168.75.233.57938 > nrt12s35-in-f10.1e100.net.https: Flags [F.], seq 63, ack 1, win 501, options [nop,nop,TS val 843336109 ecr 1075523312], length 0
+09:53:01.143643 IP 192.168.75.233.33134 > 162.125.84.18.https: Flags [P.], seq 1530:1554, ack 1, win 4471, options [nop,nop,TS val 3313635535 ecr 2819690862], length 24
+09:53:01.143651 IP 192.168.75.233.33134 > 162.125.84.18.https: Flags [F.], seq 1554, ack 1, win 4471, options [nop,nop,TS val 3313635535 ecr 2819690862], length 0
+09:53:01.143789 IP 192.168.75.233.54138 > nrt20s19-in-f14.1e100.net.https: Flags [P.], seq 39:63, ack 1, win 501, options [nop,nop,TS val 1814503787 ecr 4138740592], length 24
+09:53:01.143797 IP 192.168.75.233.54138 > nrt20s19-in-f14.1e100.net.https: Flags [F.], seq 63, ack 1, win 501, options [nop,nop,TS val 1814503787 ecr 4138740592], length 0
+09:53:01.144110 IP 192.168.75.233.49158 > 93.243.107.34.bc.googleusercontent.com.https: Flags [P.], seq 28:52, ack 1, win 501, options [nop,nop,TS val 3449165 ecr 591949795], length 24
+09:53:01.144118 IP 192.168.75.233.49158 > 93.243.107.34.bc.googleusercontent.com.https: Flags [F.], seq 52, ack 1, win 501, options [nop,nop,TS val 3449165 ecr 591949795], length 0
+09:53:01.145991 IP 140.227.186.35.bc.googleusercontent.com.https > 192.168.75.233.60684: Flags [.], ack 63, win 376, options [nop,nop,TS val 1519511238 ecr 4055550200], length 0
+09:53:01.146034 IP 140.227.186.35.bc.googleusercontent.com.https > 192.168.75.233.60684: Flags [F.], seq 1, ack 63, win 376, options [nop,nop,TS val 1519511238 ecr 4055550200], length 0
+09:53:01.146041 IP 192.168.75.233.60684 > 140.227.186.35.bc.googleusercontent.com.https: Flags [.], ack 2, win 501, options [nop,nop,TS val 4055550206 ecr 1519511238], length 0
+09:53:01.146127 IP 140.227.186.35.bc.googleusercontent.com.https > 192.168.75.233.60684: Flags [.], ack 64, win 376, options [nop,nop,TS val 1519511238 ecr 4055550200], length 0
+09:53:01.151416 IP 93.243.107.34.bc.googleusercontent.com.https > 192.168.75.233.49158: Flags [.], ack 52, win 262, options [nop,nop,TS val 591949827 ecr 3449165], length 0
+09:53:01.151439 IP 93.243.107.34.bc.googleusercontent.com.https > 192.168.75.233.49158: Flags [F.], seq 1, ack 53, win 262, options [nop,nop,TS val 591949827 ecr 3449165], length 0
+09:53:01.151453 IP 192.168.75.233.49158 > 93.243.107.34.bc.googleusercontent.com.https: Flags [.], ack 2, win 501, options [nop,nop,TS val 3449173 ecr 591949827], length 0
+09:53:01.160734 IP 162.125.84.18.https > 192.168.75.233.33134: Flags [.], ack 238, win 16383, options [nop,nop,TS val 2819721966 ecr 3313635520], length 0
+09:53:01.160851 IP 162.125.84.18.https > 192.168.75.233.33134: Flags [.], ack 1491, win 16382, options [nop,nop,TS val 2819721966 ecr 3313635520], length 0
+09:53:01.170220 IP 162.125.84.18.https > 192.168.75.233.33134: Flags [.], ack 1530, win 16383, options [nop,nop,TS val 2819721975 ecr 3313635529], length 0
+09:53:01.172623 IP nrt12s47-in-f14.1e100.net.https > 192.168.75.233.58800: Flags [.], ack 39, win 269, options [nop,nop,TS val 3882372350 ecr 526833389], length 0
+09:53:01.173979 IP nrt20s21-in-f3.1e100.net.https > 192.168.75.233.43816: Flags [.], ack 39, win 265, options [nop,nop,TS val 3544858510 ecr 4293737929], length 0
+09:53:01.174233 IP nrt13s72-in-f3.1e100.net.https > 192.168.75.233.45082: Flags [.], ack 39, win 265, options [nop,nop,TS val 1905786276 ecr 33089091], length 0
+09:53:01.174843 IP 166.188.117.34.bc.googleusercontent.com.https > 192.168.75.233.53918: Flags [.], ack 39, win 265, options [nop,nop,TS val 3063726244 ecr 3550118401], length 0
+09:53:01.174878 IP nrt13s71-in-f5.1e100.net.https > 192.168.75.233.43502: Flags [.], ack 39, win 269, options [nop,nop,TS val 2454101971 ecr 1632348242], length 0
+09:53:01.175488 IP nrt12s35-in-f10.1e100.net.https > 192.168.75.233.57938: Flags [.], ack 39, win 265, options [nop,nop,TS val 1075574190 ecr 843336101], length 0
+09:53:01.175509 IP nrt13s72-in-f5.1e100.net.https > 192.168.75.233.43286: Flags [.], ack 39, win 489, options [nop,nop,TS val 2097216144 ecr 2147367509], length 0
+09:53:01.176052 IP nrt13s72-in-f3.1e100.net.https > 192.168.75.233.45082: Flags [.], ack 63, win 265, options [nop,nop,TS val 1905786278 ecr 33089093], length 0
+09:53:01.176106 IP nrt12s51-in-f10.1e100.net.https > 192.168.75.233.53206: Flags [.], ack 39, win 269, options [nop,nop,TS val 184791618 ecr 3802227816], length 0
+09:53:01.176155 IP nrt12s51-in-f10.1e100.net.https > 192.168.75.233.53206: Flags [.], ack 63, win 269, options [nop,nop,TS val 184791618 ecr 3802227821], length 0
+09:53:01.176196 IP nrt20s18-in-f3.1e100.net.https > 192.168.75.233.45626: Flags [.], ack 63, win 265, options [nop,nop,TS val 3399723094 ecr 1393243385], length 0
+09:53:01.176201 IP nrt20s18-in-f3.1e100.net.https > 192.168.75.233.45626: Flags [F.], seq 1, ack 64, win 265, options [nop,nop,TS val 3399723094 ecr 1393243387], length 0
+09:53:01.176214 IP 192.168.75.233.45626 > nrt20s18-in-f3.1e100.net.https: Flags [.], ack 2, win 501, options [nop,nop,TS val 1393243423 ecr 3399723094], length 0
+09:53:01.176310 IP nrt12s51-in-f10.1e100.net.https > 192.168.75.233.53206: Flags [F.], seq 1, ack 64, win 269, options [nop,nop,TS val 184791618 ecr 3802227821], length 0
+09:53:01.176315 IP 192.168.75.233.53206 > nrt12s51-in-f10.1e100.net.https: Flags [.], ack 2, win 501, options [nop,nop,TS val 3802227855 ecr 184791618], length 0
+09:53:01.176771 IP 162.125.84.18.https > 192.168.75.233.33134: Flags [.], ack 1554, win 16383, options [nop,nop,TS val 2819721982 ecr 3313635535], length 0
+09:53:01.176823 IP 162.125.84.18.https > 192.168.75.233.33134: Flags [P.], seq 1:25, ack 1555, win 16383, options [nop,nop,TS val 2819721982 ecr 3313635535], length 24
+09:53:01.176836 IP 192.168.75.233.33134 > 162.125.84.18.https: Flags [R], seq 2087264218, win 0, length 0
+09:53:01.176850 IP 162.125.84.18.https > 192.168.75.233.33134: Flags [F.], seq 25, ack 1555, win 16383, options [nop,nop,TS val 2819721982 ecr 3313635535], length 0
+09:53:01.176856 IP 192.168.75.233.33134 > 162.125.84.18.https: Flags [R], seq 2087264218, win 0, length 0
+09:53:01.176866 IP nrt20s21-in-f3.1e100.net.https > 192.168.75.233.43816: Flags [.], ack 63, win 265, options [nop,nop,TS val 3544858513 ecr 4293737932], length 0
+09:53:01.176870 IP nrt20s21-in-f3.1e100.net.https > 192.168.75.233.43816: Flags [F.], seq 1, ack 63, win 265, options [nop,nop,TS val 3544858513 ecr 4293737932], length 0
+09:53:01.176875 IP 192.168.75.233.43816 > nrt20s21-in-f3.1e100.net.https: Flags [.], ack 2, win 501, options [nop,nop,TS val 4293737968 ecr 3544858513], length 0
+09:53:01.177071 IP nrt20s21-in-f3.1e100.net.https > 192.168.75.233.43816: Flags [.], ack 64, win 265, options [nop,nop,TS val 3544858513 ecr 4293737932], length 0
+09:53:01.177397 IP nrt13s72-in-f3.1e100.net.https > 192.168.75.233.45082: Flags [F.], seq 1, ack 64, win 265, options [nop,nop,TS val 1905786280 ecr 33089093], length 0
+09:53:01.177409 IP 192.168.75.233.45082 > nrt13s72-in-f3.1e100.net.https: Flags [.], ack 2, win 501, options [nop,nop,TS val 33089130 ecr 1905786280], length 0
+09:53:01.177415 IP nrt12s58-in-f14.1e100.net.https > 192.168.75.233.53520: Flags [.], ack 39, win 282, options [nop,nop,TS val 233025320 ecr 375254116], length 0
+09:53:01.177738 IP 166.188.117.34.bc.googleusercontent.com.https > 192.168.75.233.53918: Flags [.], ack 63, win 265, options [nop,nop,TS val 3063726247 ecr 3550118404], length 0
+09:53:01.177744 IP 166.188.117.34.bc.googleusercontent.com.https > 192.168.75.233.53918: Flags [F.], seq 1, ack 63, win 265, options [nop,nop,TS val 3063726247 ecr 3550118404], length 0
+09:53:01.177748 IP 192.168.75.233.53918 > 166.188.117.34.bc.googleusercontent.com.https: Flags [.], ack 2, win 501, options [nop,nop,TS val 3550118441 ecr 3063726247], length 0
+09:53:01.177806 IP nrt13s72-in-f3.1e100.net.https > 192.168.75.233.53360: Flags [.], ack 63, win 256, options [nop,nop,TS val 226327267 ecr 33089090], length 0
+09:53:01.177820 IP nrt13s72-in-f3.1e100.net.https > 192.168.75.233.53360: Flags [F.], seq 1, ack 63, win 256, options [nop,nop,TS val 226327267 ecr 33089090], length 0
+09:53:01.177824 IP 192.168.75.233.53360 > nrt13s72-in-f3.1e100.net.https: Flags [.], ack 2, win 501, options [nop,nop,TS val 33089130 ecr 226327267], length 0
+09:53:01.177862 IP 166.188.117.34.bc.googleusercontent.com.https > 192.168.75.233.53918: Flags [.], ack 64, win 265, options [nop,nop,TS val 3063726247 ecr 3550118404], length 0
+09:53:01.177870 IP nrt13s72-in-f3.1e100.net.https > 192.168.75.233.53360: Flags [.], ack 64, win 256, options [nop,nop,TS val 226327267 ecr 33089092], length 0
+09:53:01.178032 IP nrt12s45-in-f10.1e100.net.https > 192.168.75.233.60652: Flags [.], ack 39, win 269, options [nop,nop,TS val 2865225 ecr 1366235466], length 0
+09:53:01.178870 IP nrt12s45-in-f10.1e100.net.https > 192.168.75.233.60652: Flags [.], ack 63, win 269, options [nop,nop,TS val 2865226 ecr 1366235472], length 0
+09:53:01.179003 IP nrt12s45-in-f10.1e100.net.https > 192.168.75.233.60652: Flags [F.], seq 1, ack 63, win 269, options [nop,nop,TS val 2865226 ecr 1366235472], length 0
+09:53:01.179008 IP 192.168.75.233.60652 > nrt12s45-in-f10.1e100.net.https: Flags [.], ack 2, win 501, options [nop,nop,TS val 1366235509 ecr 2865226], length 0
+09:53:01.179010 IP nrt12s45-in-f10.1e100.net.https > 192.168.75.233.60652: Flags [.], ack 64, win 269, options [nop,nop,TS val 2865226 ecr 1366235472], length 0
+09:53:01.179265 IP nrt12s47-in-f14.1e100.net.https > 192.168.75.233.58800: Flags [.], ack 63, win 269, options [nop,nop,TS val 3882372356 ecr 526833395], length 0
+09:53:01.179270 IP nrt20s18-in-f3.1e100.net.https > 192.168.75.233.39612: Flags [.], ack 39, win 256, options [nop,nop,TS val 2607716936 ecr 1393243385], length 0
+09:53:01.179415 IP tk-in-f129.1e100.net.https > 192.168.75.233.39406: Flags [P.], seq 1:47, ack 46, win 269, options [nop,nop,TS val 3973401600 ecr 3993055294], length 46
+09:53:01.179430 IP 192.168.75.233.39406 > tk-in-f129.1e100.net.https: Flags [R], seq 28113262, win 0, length 0
+09:53:01.179582 IP nrt12s35-in-f10.1e100.net.https > 192.168.75.233.57938: Flags [.], ack 63, win 265, options [nop,nop,TS val 1075574194 ecr 843336109], length 0
+09:53:01.179640 IP nrt12s35-in-f10.1e100.net.https > 192.168.75.233.57938: Flags [F.], seq 1, ack 64, win 265, options [nop,nop,TS val 1075574194 ecr 843336109], length 0
+09:53:01.179646 IP 192.168.75.233.57938 > nrt12s35-in-f10.1e100.net.https: Flags [.], ack 2, win 501, options [nop,nop,TS val 843336145 ecr 1075574194], length 0
+09:53:01.179650 IP nrt20s21-in-f3.1e100.net.https > 192.168.75.233.43808: Flags [.], ack 64, win 269, options [nop,nop,TS val 2396207348 ecr 4293737930], length 0
+09:53:01.179658 IP nrt20s21-in-f3.1e100.net.https > 192.168.75.233.43808: Flags [F.], seq 1, ack 64, win 269, options [nop,nop,TS val 2396207348 ecr 4293737930], length 0
+09:53:01.179664 IP 192.168.75.233.43808 > nrt20s21-in-f3.1e100.net.https: Flags [.], ack 2, win 1788, options [nop,nop,TS val 4293737971 ecr 2396207348], length 0
+09:53:01.179742 IP nrt12s47-in-f14.1e100.net.https > 192.168.75.233.58800: Flags [F.], seq 1, ack 64, win 269, options [nop,nop,TS val 3882372357 ecr 526833396], length 0
+09:53:01.179748 IP 192.168.75.233.58800 > nrt12s47-in-f14.1e100.net.https: Flags [.], ack 2, win 501, options [nop,nop,TS val 526833433 ecr 3882372357], length 0
+09:53:01.180543 IP nrt12s35-in-f3.1e100.net.https > 192.168.75.233.51666: Flags [.], ack 64, win 294, options [nop,nop,TS val 835458695 ecr 986643822], length 0
+09:53:01.180603 IP nrt20s18-in-f3.1e100.net.https > 192.168.75.233.39612: Flags [.], ack 63, win 256, options [nop,nop,TS val 2607716937 ecr 1393243390], length 0
+09:53:01.180607 IP nrt20s18-in-f3.1e100.net.https > 192.168.75.233.39612: Flags [F.], seq 1, ack 64, win 256, options [nop,nop,TS val 2607716937 ecr 1393243390], length 0
+09:53:01.180613 IP 192.168.75.233.39612 > nrt20s18-in-f3.1e100.net.https: Flags [.], ack 2, win 501, options [nop,nop,TS val 1393243428 ecr 2607716937], length 0
+09:53:01.180972 IP nrt13s72-in-f5.1e100.net.https > 192.168.75.233.43286: Flags [.], ack 63, win 489, options [nop,nop,TS val 2097216149 ecr 2147367515], length 0
+09:53:01.181099 IP nrt13s72-in-f5.1e100.net.https > 192.168.75.233.43286: Flags [F.], seq 1, ack 64, win 489, options [nop,nop,TS val 2097216149 ecr 2147367515], length 0
+09:53:01.181106 IP 192.168.75.233.43286 > nrt13s72-in-f5.1e100.net.https: Flags [.], ack 2, win 16943, options [nop,nop,TS val 2147367553 ecr 2097216149], length 0
+09:53:01.181763 IP 162.125.84.18.https > 192.168.75.233.50234: Flags [.], ack 63, win 130, options [nop,nop,TS val 1573119083 ecr 3313635530], length 0
+09:53:01.181772 IP 162.125.84.18.https > 192.168.75.233.50234: Flags [P.], seq 1:25, ack 63, win 130, options [nop,nop,TS val 1573119083 ecr 3313635530], length 24
+09:53:01.181784 IP 192.168.75.233.50234 > 162.125.84.18.https: Flags [R], seq 4292493908, win 0, length 0
+09:53:01.181788 IP 162.125.84.18.https > 192.168.75.233.50234: Flags [F.], seq 25, ack 63, win 130, options [nop,nop,TS val 1573119083 ecr 3313635530], length 0
+09:53:01.181794 IP 192.168.75.233.50234 > 162.125.84.18.https: Flags [R], seq 4292493908, win 0, length 0
+09:53:01.181874 IP 162.125.84.18.https > 192.168.75.233.50234: Flags [.], ack 64, win 130, options [nop,nop,TS val 1573119083 ecr 3313635533], length 0
+09:53:01.181878 IP 192.168.75.233.50234 > 162.125.84.18.https: Flags [R], seq 4292493909, win 0, length 0
+09:53:01.181967 IP nrt20s19-in-f14.1e100.net.https > 192.168.75.233.54138: Flags [.], ack 39, win 256, options [nop,nop,TS val 4138773519 ecr 1814503782], length 0
+09:53:01.182619 IP nrt12s58-in-f14.1e100.net.https > 192.168.75.233.53520: Flags [.], ack 63, win 282, options [nop,nop,TS val 233025325 ecr 375254121], length 0
+09:53:01.182992 IP nrt13s71-in-f5.1e100.net.https > 192.168.75.233.43502: Flags [.], ack 63, win 269, options [nop,nop,TS val 2454101979 ecr 1632348248], length 0
+09:53:01.183025 IP nrt13s71-in-f5.1e100.net.https > 192.168.75.233.43502: Flags [F.], seq 1, ack 64, win 269, options [nop,nop,TS val 2454101979 ecr 1632348248], length 0
+09:53:01.183031 IP 192.168.75.233.43502 > nrt13s71-in-f5.1e100.net.https: Flags [.], ack 2, win 501, options [nop,nop,TS val 1632348288 ecr 2454101979], length 0
+09:53:01.183637 IP nrt12s58-in-f14.1e100.net.https > 192.168.75.233.53520: Flags [F.], seq 1, ack 64, win 282, options [nop,nop,TS val 233025326 ecr 375254121], length 0
+09:53:01.183642 IP 192.168.75.233.53520 > nrt12s58-in-f14.1e100.net.https: Flags [.], ack 2, win 501, options [nop,nop,TS val 375254163 ecr 233025326], length 0
+09:53:01.184738 IP nrt20s19-in-f14.1e100.net.https > 192.168.75.233.54138: Flags [.], ack 63, win 256, options [nop,nop,TS val 4138773521 ecr 1814503787], length 0
+09:53:01.184742 IP nrt20s19-in-f14.1e100.net.https > 192.168.75.233.54138: Flags [F.], seq 1, ack 64, win 256, options [nop,nop,TS val 4138773522 ecr 1814503787], length 0
+09:53:01.184748 IP 192.168.75.233.54138 > nrt20s19-in-f14.1e100.net.https: Flags [.], ack 2, win 501, options [nop,nop,TS val 1814503828 ecr 4138773522], length 0
+09:53:01.185212 IP bns1.hananet.net.domain > 192.168.75.233.39524: 32637 1/0/0 PTR tk-in-f129.1e100.net. (79)
+09:53:01.185416 IP 192.168.75.233.56472 > bns1.hananet.net.domain: 52722+ PTR? 93.243.107.34.in-addr.arpa. (44)
+09:53:01.190596 IP nrt12s35-in-f3.1e100.net.https > 192.168.75.233.51666: Flags [F.], seq 1, ack 64, win 294, options [nop,nop,TS val 835458705 ecr 986643822], length 0
+09:53:01.190619 IP 192.168.75.233.51666 > nrt12s35-in-f3.1e100.net.https: Flags [.], ack 2, win 501, options [nop,nop,TS val 986643874 ecr 835458705], length 0
+09:53:01.205408 IP nrt13s55-in-f10.1e100.net.https > 192.168.75.233.39150: Flags [.], ack 39, win 269, options [nop,nop,TS val 1634792566 ecr 909174696], length 0
+09:53:01.207195 IP nrt13s55-in-f10.1e100.net.https > 192.168.75.233.39150: Flags [.], ack 63, win 269, options [nop,nop,TS val 1634792568 ecr 909174701], length 0
+09:53:01.207203 IP nrt13s55-in-f10.1e100.net.https > 192.168.75.233.39150: Flags [F.], seq 1, ack 64, win 269, options [nop,nop,TS val 1634792568 ecr 909174701], length 0
+09:53:01.207217 IP 192.168.75.233.39150 > nrt13s55-in-f10.1e100.net.https: Flags [.], ack 2, win 501, options [nop,nop,TS val 909174765 ecr 1634792568], length 0
+09:53:01.224468 IP tp-in-f129.1e100.net.https > 192.168.75.233.55238: Flags [.], ack 46, win 1050, options [nop,nop,TS val 405681341 ecr 2418968142], length 0
+09:53:01.225454 IP tp-in-f129.1e100.net.https > 192.168.75.233.55238: Flags [.], ack 77, win 1050, options [nop,nop,TS val 405681341 ecr 2418968146], length 0
+09:53:01.225628 IP tp-in-f129.1e100.net.https > 192.168.75.233.55238: Flags [F.], seq 1, ack 78, win 1050, options [nop,nop,TS val 405681342 ecr 2418968146], length 0
+09:53:01.225643 IP 192.168.75.233.55238 > tp-in-f129.1e100.net.https: Flags [.], ack 2, win 501, options [nop,nop,TS val 2418968229 ecr 405681342], length 0
+09:53:01.262890 IP bns1.hananet.net.domain > 192.168.75.233.56472: 52722 1/0/0 PTR 93.243.107.34.bc.googleusercontent.com. (96)
+09:53:01.263108 IP 192.168.75.233.35604 > bns1.hananet.net.domain: 20279+ PTR? 18.84.125.162.in-addr.arpa. (44)
+09:53:01.271559 IP bns1.hananet.net.domain > 192.168.75.233.35604: 20279 NXDomain 0/1/0 (94)
+09:53:01.271697 IP 192.168.75.233.42296 > bns1.hananet.net.domain: 22221+ PTR? 106.196.250.142.in-addr.arpa. (46)
+09:53:01.279637 IP bns1.hananet.net.domain > 192.168.75.233.42296: 22221 1/0/0 PTR nrt12s35-in-f10.1e100.net. (85)
+09:53:01.279741 IP 192.168.75.233.56637 > bns1.hananet.net.domain: 3424+ PTR? 138.42.251.142.in-addr.arpa. (45)
+09:53:01.287585 IP bns1.hananet.net.domain > 192.168.75.233.56637: 3424 1/0/0 PTR nrt12s45-in-f10.1e100.net. (84)
+09:53:01.287731 IP 192.168.75.233.38073 > bns1.hananet.net.domain: 23191+ PTR? 206.42.251.142.in-addr.arpa. (45)
+09:53:01.295580 IP bns1.hananet.net.domain > 192.168.75.233.38073: 23191 1/0/0 PTR nrt12s47-in-f14.1e100.net. (84)
+09:53:01.295737 IP 192.168.75.233.51323 > bns1.hananet.net.domain: 12340+ PTR? 5.222.251.142.in-addr.arpa. (44)
+09:53:01.329148 IP ec2-34-239-210-108.compute-1.amazonaws.com.https > 192.168.75.233.34754: Flags [.], ack 78, win 269, options [nop,nop,TS val 1252909541 ecr 2353688730], length 0
+09:53:01.329185 IP ec2-34-239-210-108.compute-1.amazonaws.com.https > 192.168.75.233.34754: Flags [F.], seq 1, ack 78, win 269, options [nop,nop,TS val 1252909541 ecr 2353688730], length 0
+09:53:01.329203 IP 192.168.75.233.34754 > ec2-34-239-210-108.compute-1.amazonaws.com.https: Flags [.], ack 2, win 501, options [nop,nop,TS val 2353688921 ecr 1252909541], length 0
+09:53:01.369752 IP bns1.hananet.net.domain > 192.168.75.233.51323: 12340 1/0/0 PTR nrt13s71-in-f5.1e100.net. (82)
+09:53:01.369930 IP 192.168.75.233.38171 > bns1.hananet.net.domain: 25232+ PTR? 234.26.217.172.in-addr.arpa. (45)
+09:53:01.379389 IP bns1.hananet.net.domain > 192.168.75.233.38171: 25232 2/0/0 PTR nrt12s51-in-f10.1e100.net., PTR bom05s09-in-f10.1e100.net. (114)
+09:53:01.379474 IP 192.168.75.233.57491 > bns1.hananet.net.domain: 8753+ PTR? 14.198.250.142.in-addr.arpa. (45)
+09:53:01.387642 IP bns1.hananet.net.domain > 192.168.75.233.57491: 8753 1/0/0 PTR nrt12s58-in-f14.1e100.net. (84)
+09:53:01.387724 IP 192.168.75.233.49377 > bns1.hananet.net.domain: 33686+ PTR? 140.227.186.35.in-addr.arpa. (45)
+09:53:01.389561 IP 162.125.40.1.https > 192.168.75.233.45412: Flags [.], ack 975, win 130, options [nop,nop,TS val 839756219 ecr 751990417], length 0
+09:53:01.390972 IP 162.125.40.1.https > 192.168.75.233.45412: Flags [.], ack 1010, win 130, options [nop,nop,TS val 839756220 ecr 751990417], length 0
+09:53:01.390977 IP 162.125.40.1.https > 192.168.75.233.45412: Flags [.], ack 1045, win 130, options [nop,nop,TS val 839756220 ecr 751990417], length 0
+09:53:01.392748 IP 162.125.40.1.https > 192.168.75.233.45412: Flags [.], ack 1080, win 130, options [nop,nop,TS val 839756222 ecr 751990417], length 0
+09:53:01.392752 IP 162.125.40.1.https > 192.168.75.233.45412: Flags [.], ack 1115, win 130, options [nop,nop,TS val 839756222 ecr 751990417], length 0
+09:53:01.427423 IP 162.125.8.20.https > 192.168.75.233.57484: Flags [.], ack 39, win 130, options [nop,nop,TS val 1314996131 ecr 3742995085], length 0
+09:53:01.430576 IP 162.125.8.20.https > 192.168.75.233.57484: Flags [.], ack 63, win 130, options [nop,nop,TS val 1314996134 ecr 3742995088], length 0
+09:53:01.430582 IP 162.125.8.20.https > 192.168.75.233.57484: Flags [P.], seq 1:25, ack 63, win 130, options [nop,nop,TS val 1314996134 ecr 3742995088], length 24
+09:53:01.430606 IP 192.168.75.233.57484 > 162.125.8.20.https: Flags [R], seq 3435701542, win 0, length 0
+09:53:01.430616 IP 162.125.8.20.https > 192.168.75.233.57484: Flags [F.], seq 25, ack 63, win 130, options [nop,nop,TS val 1314996134 ecr 3742995088], length 0
+09:53:01.430622 IP 192.168.75.233.57484 > 162.125.8.20.https: Flags [R], seq 3435701542, win 0, length 0
+09:53:01.430633 IP 162.125.8.20.https > 192.168.75.233.57484: Flags [.], ack 64, win 130, options [nop,nop,TS val 1314996134 ecr 3742995088], length 0
+09:53:01.430637 IP 192.168.75.233.57484 > 162.125.8.20.https: Flags [R], seq 3435701543, win 0, length 0
+09:53:01.430719 IP bns1.hananet.net.domain > 192.168.75.233.49377: 33686 1/0/0 PTR 140.227.186.35.bc.googleusercontent.com. (98)
+09:53:01.430903 IP 192.168.75.233.46413 > bns1.hananet.net.domain: 2995+ PTR? 37.222.251.142.in-addr.arpa. (45)
+09:53:01.432372 IP 162.125.40.1.https > 192.168.75.233.45412: Flags [.], ack 1154, win 130, options [nop,nop,TS val 839756262 ecr 751990464], length 0
+09:53:01.435080 IP 162.125.40.1.https > 192.168.75.233.45412: Flags [.], ack 1178, win 130, options [nop,nop,TS val 839756264 ecr 751990467], length 0
+09:53:01.435141 IP 162.125.40.1.https > 192.168.75.233.45412: Flags [P.], seq 114:138, ack 1178, win 130, options [nop,nop,TS val 839756264 ecr 751990467], length 24
+09:53:01.435154 IP 192.168.75.233.45412 > 162.125.40.1.https: Flags [R], seq 1201153690, win 0, length 0
+09:53:01.435212 IP 162.125.40.1.https > 192.168.75.233.45412: Flags [.], ack 1179, win 130, options [nop,nop,TS val 839756264 ecr 751990467], length 0
+09:53:01.435217 IP 192.168.75.233.45412 > 162.125.40.1.https: Flags [R], seq 1201153691, win 0, length 0
+09:53:01.505735 IP bns1.hananet.net.domain > 192.168.75.233.46413: 2995 1/0/0 PTR nrt13s72-in-f5.1e100.net. (83)
+09:53:01.505934 IP 192.168.75.233.43787 > bns1.hananet.net.domain: 37585+ PTR? 3.175.217.172.in-addr.arpa. (44)
+09:53:01.515366 IP bns1.hananet.net.domain > 192.168.75.233.43787: 37585 1/0/0 PTR nrt20s18-in-f3.1e100.net. (82)
+09:53:01.515476 IP 192.168.75.233.57939 > bns1.hananet.net.domain: 30079+ PTR? 108.210.239.34.in-addr.arpa. (45)
+09:53:01.649803 IP bns1.hananet.net.domain > 192.168.75.233.57939: 30079 1/0/0 PTR ec2-34-239-210-108.compute-1.amazonaws.com. (101)
+09:53:01.649971 IP 192.168.75.233.37443 > bns1.hananet.net.domain: 31589+ PTR? 35.222.251.142.in-addr.arpa. (45)
+09:53:01.659463 IP bns1.hananet.net.domain > 192.168.75.233.37443: 31589 1/0/0 PTR nrt13s72-in-f3.1e100.net. (83)
+09:53:01.659641 IP 192.168.75.233.53413 > bns1.hananet.net.domain: 8315+ PTR? 42.207.250.142.in-addr.arpa. (45)
+09:53:01.667443 IP bns1.hananet.net.domain > 192.168.75.233.53413: 8315 1/0/0 PTR nrt13s55-in-f10.1e100.net. (84)
+09:53:01.667634 IP 192.168.75.233.52178 > bns1.hananet.net.domain: 1009+ PTR? 99.175.217.172.in-addr.arpa. (45)
+09:53:01.675723 IP bns1.hananet.net.domain > 192.168.75.233.52178: 1009 1/0/0 PTR nrt20s21-in-f3.1e100.net. (83)
+09:53:01.675910 IP 192.168.75.233.45119 > bns1.hananet.net.domain: 24751+ PTR? 166.188.117.34.in-addr.arpa. (45)
+09:53:01.752820 IP bns1.hananet.net.domain > 192.168.75.233.45119: 24751 1/0/0 PTR 166.188.117.34.bc.googleusercontent.com. (98)
+09:53:01.753076 IP 192.168.75.233.41957 > bns1.hananet.net.domain: 26161+ PTR? 20.8.125.162.in-addr.arpa. (43)
+09:53:01.761673 IP bns1.hananet.net.domain > 192.168.75.233.41957: 26161 NXDomain 0/1/0 (93)
+09:53:01.761902 IP 192.168.75.233.58390 > bns1.hananet.net.domain: 39699+ PTR? 46.175.217.172.in-addr.arpa. (45)
+09:53:01.769596 IP bns1.hananet.net.domain > 192.168.75.233.58390: 39699 1/0/0 PTR nrt20s19-in-f14.1e100.net. (84)
+09:53:01.769815 IP 192.168.75.233.52799 > bns1.hananet.net.domain: 23983+ PTR? 129.125.177.108.in-addr.arpa. (46)
+09:53:01.811798 IP bns1.hananet.net.domain > 192.168.75.233.52799: 23983 1/0/0 PTR tp-in-f129.1e100.net. (80)
+09:53:05.344543 IP 192.168.75.233.53684 > swe1-v1.aurorix.cloud.28038: Flags [P.], seq 536:1072, ack 537, win 590, options [nop,nop,TS val 262685745 ecr 739632575], length 536
+09:53:05.714681 IP swe1-v1.aurorix.cloud.28038 > 192.168.75.233.53684: Flags [.], ack 1072, win 501, options [nop,nop,TS val 739639749 ecr 262685745], length 0
+09:53:06.364747 Loopback, skipCount 0,  invalid (256)
+09:53:10.902583 IP 192.168.75.233.54088 > a23-38-197-10.deploy.static.akamaitechnologies.com.https: Flags [.], ack 3793855484, win 501, options [nop,nop,TS val 354582170 ecr 2123423043], length 0
+09:53:11.382838 IP 192.168.75.233.42209 > bns1.hananet.net.domain: 55604+ PTR? 10.197.38.23.in-addr.arpa. (43)
+09:53:11.382998 IP 192.168.75.233.53684 > swe1-v1.aurorix.cloud.28038: Flags [P.], seq 1072:1608, ack 537, win 590, options [nop,nop,TS val 262691783 ecr 739639749], length 536
+09:53:11.397424 IP bns1.hananet.net.domain > 192.168.75.233.42209: 55604 1/0/0 PTR a23-38-197-10.deploy.static.akamaitechnologies.com. (107)
+09:53:11.754619 IP swe1-v1.aurorix.cloud.28038 > 192.168.75.233.53684: Flags [.], ack 1608, win 501, options [nop,nop,TS val 739645790 ecr 262691783], length 0
+09:53:15.982544 IP 45.121.184.20.27033 > 192.168.75.233.54371: Flags [P.], seq 1:94, ack 54, win 16383, length 93
+09:53:15.982601 IP 192.168.75.233.54371 > 45.121.184.20.27033: Flags [.], ack 94, win 32403, length 0
+09:53:16.384975 Loopback, skipCount 0,  invalid (256)
+09:53:17.887485 IP 192.168.75.233.53684 > swe1-v1.aurorix.cloud.28038: Flags [P.], seq 1608:2144, ack 537, win 590, options [nop,nop,TS val 262698288 ecr 739645790], length 536
+09:53:18.259916 IP swe1-v1.aurorix.cloud.28038 > 192.168.75.233.53684: Flags [.], ack 2144, win 501, options [nop,nop,TS val 739652295 ecr 262698288], length 0
+09:53:23.556088 IP 192.168.75.233.53684 > swe1-v1.aurorix.cloud.28038: Flags [P.], seq 2144:2680, ack 537, win 590, options [nop,nop,TS val 262703956 ecr 739652295], length 536
+09:53:23.634104 IP 192.168.75.233.54371 > 45.121.184.20.27033: Flags [P.], seq 54:108, ack 94, win 32403, length 54
+09:53:23.724477 IP 45.121.184.20.27033 > 192.168.75.233.54371: Flags [.], ack 108, win 16383, length 0
+09:53:23.921443 IP swe1-v1.aurorix.cloud.28038 > 192.168.75.233.53684: Flags [.], ack 2680, win 501, options [nop,nop,TS val 739657956 ecr 262703956], length 0
+09:53:26.405259 Loopback, skipCount 0,  invalid (256)
+09:53:27.054802 IP swe1-v1.aurorix.cloud.28038 > 192.168.75.233.53684: Flags [P.], seq 537:1073, ack 2680, win 501, options [nop,nop,TS val 739661089 ecr 262703956], length 536
+09:53:27.054855 IP 192.168.75.233.53684 > swe1-v1.aurorix.cloud.28038: Flags [.], ack 1073, win 590, options [nop,nop,TS val 262707455 ecr 739661089], length 0
+09:53:34.507255 IP 192.168.75.233.53684 > swe1-v1.aurorix.cloud.28038: Flags [P.], seq 2680:3216, ack 1073, win 590, options [nop,nop,TS val 262714907 ecr 739661089], length 536
+09:53:34.873382 IP swe1-v1.aurorix.cloud.28038 > 192.168.75.233.53684: Flags [.], ack 3216, win 501, options [nop,nop,TS val 739668908 ecr 262714907], length 0
+09:53:35.734550 IP 192.168.75.233.38633 > bns1.hananet.net.domain: 48357+ A? p2p-tyo3.discovery.steamserver.net. (52)
+09:53:35.746285 IP bns1.hananet.net.domain > 192.168.75.233.38633: 48357 4/0/0 A 45.121.184.22, A 45.121.184.21, A 45.121.184.20, A 45.121.184.23 (116)
+09:53:36.425613 Loopback, skipCount 0,  invalid (256)
+09:53:36.789221 IP 192.168.75.233.53684 > swe1-v1.aurorix.cloud.28038: Flags [P.], seq 3216:3752, ack 1073, win 590, options [nop,nop,TS val 262717189 ecr 739668908], length 536
+09:53:37.155065 IP swe1-v1.aurorix.cloud.28038 > 192.168.75.233.53684: Flags [.], ack 3752, win 501, options [nop,nop,TS val 739671191 ecr 262717189], length 0
+09:53:40.758160 ARP, Request who-has 192.168.75.233 tell DASAN_H660N.domain.name, length 46
+09:53:40.758178 ARP, Reply 192.168.75.233 is-at 70:85:c2:d2:8f:44 (oui Unknown), length 28
+09:53:41.079085 IP 192.168.75.233.48370 > bns1.hananet.net.domain: 54854+ PTR? 1.75.168.192.in-addr.arpa. (43)
+09:53:41.080943 IP bns1.hananet.net.domain > 192.168.75.233.48370: 54854* 1/0/0 PTR DASAN_H660N.domain.name. (80)
+09:53:42.088309 IP 192.168.75.233.53684 > swe1-v1.aurorix.cloud.28038: Flags [P.], seq 3752:4288, ack 1073, win 590, options [nop,nop,TS val 262722488 ecr 739671191], length 536
+09:53:42.459779 IP swe1-v1.aurorix.cloud.28038 > 192.168.75.233.53684: Flags [.], ack 4288, win 501, options [nop,nop,TS val 739676495 ecr 262722488], length 0
+09:53:43.713328 IP 192.168.75.66.mdns > mdns.mcast.net.mdns: 0 SRV (QM)? bid-at200-e566f7781b617791f5176881acc41d6b._googlecast._tcp.local. (83)
+09:53:43.713401 IP6 fe80::bff0:8a76:6922:be9a.mdns > ff02::fb.mdns: 0 SRV (QM)? bid-at200-e566f7781b617791f5176881acc41d6b._googlecast._tcp.local. (83)
+09:53:43.713515 IP 192.168.75.66.mdns > mdns.mcast.net.mdns: 0*- [0q] 1/0/1 (Cache flush) SRV e566f778-1b61-7791-f517-6881acc41d6b.local.:8009 0 0 (150)
+09:53:43.715712 IP6 fe80::bff0:8a76:6922:be9a.mdns > ff02::fb.mdns: 0*- [0q] 1/0/1 (Cache flush) SRV e566f778-1b61-7791-f517-6881acc41d6b.local.:8009 0 0 (162)
+09:53:44.151066 IP 192.168.75.233.49097 > bns1.hananet.net.domain: 6549+ PTR? 251.0.0.224.in-addr.arpa. (42)
+09:53:44.160004 IP bns1.hananet.net.domain > 192.168.75.233.49097: 6549 1/0/0 PTR mdns.mcast.net. (70)
+09:53:44.160211 IP 192.168.75.233.37129 > bns1.hananet.net.domain: 4097+ PTR? 66.75.168.192.in-addr.arpa. (44)
+09:53:44.170261 IP bns1.hananet.net.domain > 192.168.75.233.37129: 4097 NXDomain 0/1/0 (79)
+09:53:44.170520 IP 192.168.75.233.50095 > bns1.hananet.net.domain: 11208+ PTR? b.f.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.2.0.f.f.ip6.arpa. (90)
+09:53:44.179995 IP bns1.hananet.net.domain > 192.168.75.233.50095: 11208 NXDomain 0/1/0 (154)
+09:53:44.180187 IP 192.168.75.233.45238 > bns1.hananet.net.domain: 35322+ PTR? a.9.e.b.2.2.9.6.6.7.a.8.0.f.f.b.0.0.0.0.0.0.0.0.0.0.0.0.0.8.e.f.ip6.arpa. (90)
+09:53:44.189429 IP bns1.hananet.net.domain > 192.168.75.233.45238: 35322 NXDomain 0/1/0 (125)
+09:53:44.239645 IP 192.168.75.66.mdns > mdns.mcast.net.mdns: 0 PTR (QM)? _googlecast._tcp.local. (40)
+09:53:44.239706 IP6 fe80::bff0:8a76:6922:be9a.mdns > ff02::fb.mdns: 0 PTR (QM)? _googlecast._tcp.local. (40)
+09:53:44.240118 IP 192.168.75.66.mdns > mdns.mcast.net.mdns: 0*- [0q] 1/0/3 PTR BID-AT200-e566f7781b617791f5176881acc41d6b._googlecast._tcp.local. (369)
+09:53:44.244334 IP6 fe80::bff0:8a76:6922:be9a.mdns > ff02::fb.mdns: 0*- [0q] 1/0/3 PTR BID-AT200-e566f7781b617791f5176881acc41d6b._googlecast._tcp.local. (381)
+09:53:46.444786 Loopback, skipCount 0,  invalid (256)
+09:53:49.376072 IP swe1-v1.aurorix.cloud.28038 > 192.168.75.233.53684: Flags [P.], seq 1073:1609, ack 4288, win 501, options [nop,nop,TS val 739683409 ecr 262722488], length 536
+09:53:49.376132 IP 192.168.75.233.53684 > swe1-v1.aurorix.cloud.28038: Flags [.], ack 1609, win 590, options [nop,nop,TS val 262729776 ecr 739683409], length 0
+09:53:50.711182 IP 192.168.75.233.54371 > 45.121.184.20.27033: Flags [P.], seq 108:162, ack 94, win 32403, length 54
+09:53:50.802545 IP 45.121.184.20.27033 > 192.168.75.233.54371: Flags [.], ack 162, win 16382, length 0
+09:53:55.282976 IP swe1-v1.aurorix.cloud.28038 > 192.168.75.233.53684: Flags [P.], seq 1609:2145, ack 4288, win 501, options [nop,nop,TS val 739689317 ecr 262729776], length 536
+09:53:55.283033 IP 192.168.75.233.53684 > swe1-v1.aurorix.cloud.28038: Flags [.], ack 2145, win 590, options [nop,nop,TS val 262735683 ecr 739689317], length 0
+09:53:55.958450 IP 192.168.75.233.54088 > a23-38-197-10.deploy.static.akamaitechnologies.com.https: Flags [.], ack 1, win 501, options [nop,nop,TS val 354627226 ecr 2123423043], length 0
+09:53:56.464664 Loopback, skipCount 0,  invalid (256)
+09:53:59.615215 IP 192.168.75.233.53684 > swe1-v1.aurorix.cloud.28038: Flags [P.], seq 4288:4824, ack 2145, win 590, options [nop,nop,TS val 262740015 ecr 739689317], length 536
+09:53:59.984709 IP swe1-v1.aurorix.cloud.28038 > 192.168.75.233.53684: Flags [.], ack 4824, win 501, options [nop,nop,TS val 739694020 ecr 262740015], length 0
+09:54:06.484862 Loopback, skipCount 0,  invalid (256)
+09:54:09.031247 IP 192.168.75.233.53684 > swe1-v1.aurorix.cloud.28038: Flags [P.], seq 4824:5360, ack 2145, win 590, options [nop,nop,TS val 262749431 ecr 739694020], length 536
+09:54:09.053893 IP swe1-v1.aurorix.cloud.28038 > 192.168.75.233.53684: Flags [P.], seq 2145:2681, ack 4824, win 501, options [nop,nop,TS val 739703089 ecr 262740015], length 536
+09:54:09.053934 IP 192.168.75.233.53684 > swe1-v1.aurorix.cloud.28038: Flags [.], ack 2681, win 590, options [nop,nop,TS val 262749454 ecr 739703089], length 0
+09:54:09.396258 IP swe1-v1.aurorix.cloud.28038 > 192.168.75.233.53684: Flags [.], ack 5360, win 501, options [nop,nop,TS val 739703432 ecr 262749431], length 0
+09:54:11.244335 IP DASAN_H660N.domain.name > all-systems.mcast.net: igmp query v2
+09:54:11.799066 IP 192.168.75.233.54880 > bns1.hananet.net.domain: 15039+ PTR? 1.0.0.224.in-addr.arpa. (40)
+09:54:11.808554 IP bns1.hananet.net.domain > 192.168.75.233.54880: 15039 1/0/0 PTR all-systems.mcast.net. (75)
+09:54:12.904218 IP 192.168.75.233.53684 > swe1-v1.aurorix.cloud.28038: Flags [P.], seq 5360:5896, ack 2681, win 590, options [nop,nop,TS val 262753304 ecr 739703432], length 536
+09:54:13.275594 IP swe1-v1.aurorix.cloud.28038 > 192.168.75.233.53684: Flags [.], ack 5896, win 501, options [nop,nop,TS val 739707311 ecr 262753304], length 0
+09:54:16.504364 Loopback, skipCount 0,  invalid (256)
+09:54:17.782055 IP 192.168.75.233.54371 > 45.121.184.20.27033: Flags [P.], seq 162:216, ack 94, win 32403, length 54
+09:54:17.874868 IP 45.121.184.20.27033 > 192.168.75.233.54371: Flags [.], ack 216, win 16382, length 0
+09:54:20.469932 IP swe1-v1.aurorix.cloud.28038 > 192.168.75.233.53684: Flags [P.], seq 2681:3217, ack 5896, win 501, options [nop,nop,TS val 739714505 ecr 262753304], length 536
+09:54:20.469988 IP 192.168.75.233.53684 > swe1-v1.aurorix.cloud.28038: Flags [.], ack 3217, win 590, options [nop,nop,TS val 262760870 ecr 739714505], length 0
+09:54:25.365593 IP swe1-v1.aurorix.cloud.28038 > 192.168.75.233.53684: Flags [P.], seq 3217:3753, ack 5896, win 501, options [nop,nop,TS val 739719401 ecr 262760870], length 536
+09:54:25.365645 IP 192.168.75.233.53684 > swe1-v1.aurorix.cloud.28038: Flags [.], ack 3753, win 590, options [nop,nop,TS val 262765766 ecr 739719401], length 0
+09:54:26.523175 Loopback, skipCount 0,  invalid (256)
+
